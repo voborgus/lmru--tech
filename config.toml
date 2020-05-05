@@ -1,5 +1,5 @@
-baseURL = "/"
-title = "Goldydocs"
+baseURL = "/technology/"
+title = "Leroy Merlin Technology"
 
 enableRobotsTXT = true
 
