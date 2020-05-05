@@ -1,4 +1,4 @@
-baseURL = "/technology/"
+baseURL = "/"
 title = "Leroy Merlin Technology"
 
 enableRobotsTXT = true
