@@ -11,8 +11,11 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with:
-          submodules: recursive  # Fetch Hugo themes
-          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+          submodules: recursive
+          fetch-depth: 0
+
+      - name: Install dependencies
+        run: npm install -D --save autoprefixer && npm install -D --save postcss-cli
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
