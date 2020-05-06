@@ -1,7 +1,6 @@
 +++
-title = "Goldydocs"
-linkTitle = "Goldydocs"
-
+title = "Leroy Merlin Technology"
+linkTitle = "Leroy Merlin Technology"
 +++
 
 {{< blocks/cover title="Welcome to Leroy Merlin technology portal" image_anchor="top" height="full" color="orange" >}}
