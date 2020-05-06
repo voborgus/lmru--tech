@@ -1,4 +1,4 @@
-baseURL = "/technology/"
+baseURL = "/"
 title = "Leroy Merlin Technology"
 
 enableRobotsTXT = true
@@ -58,11 +58,11 @@ description = "Company's engineering culture site."
 languageName ="English"
 # Weight used for sorting.
 weight = 1
-[languages.no]
+[languages.ru]
 title = "Леруа Мерлен Технологии"
 description = "Сайт, посвященный технологической культуре компании"
 languageName ="Русский"
-contentDir = "content/no"
+contentDir = "content/ru"
 time_format_default = "02.01.2006"
 time_format_blog = "02.01.2006"
 
