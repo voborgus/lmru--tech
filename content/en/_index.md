@@ -5,8 +5,16 @@ linkTitle = "Leroy Merlin Technology"
 
 {{< blocks/cover title="Welcome to Leroy Merlin technology portal" image_anchor="top" height="full" color="orange" >}}
 <div class="mx-auto">
+	<a class="btn btn-lg btn-primary mr-3 mb-4" href="#td-block-1">
+		Our values <i class="fas fa-arrow-alt-circle-right ml-2"></i>
+	</a>
+	<a class="btn btn-lg btn-secondary mr-3 mb-4" href="https://github.com/bep">
+		Developer Portal <i class="fab fa-github ml-2 "></i>
+	</a>
 	<p class="lead mt-5">Company's engineering culture site</p>
-	{{< blocks/link-down color="info" >}}
+	<div class="mx-auto mt-5">
+		{{< blocks/link-down color="info" >}}
+	</div>
 </div>
 {{< /blocks/cover >}}
 
@@ -19,7 +27,11 @@ We as IT want to bring autonomy to product teams, support it with tools and gove
 
 {{< blocks/section color="dark" >}}
 
-{{% blocks/feature icon="fa-users" title="People" %}}
+<div class="col-12">
+<h1 class="text-center">Our Values</h1><br />
+</div>
+
+{{% blocks/feature icon="fa-users" title="People" url="https://github.com/google/docsy-example" %}}
 Personal relationship at the first place
 {{% /blocks/feature %}}
 
