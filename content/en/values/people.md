@@ -46,7 +46,7 @@ Content under construction: the set of values is not accepted and not convenient
 * We know goals of every meeting and record all decisions.
 
 #### Practices & rituals: 
-*`ability to the meetings connect online`*, *`availability of the tools`*, *`daily meetings`*, *`planning`*, *`retrospectives`*, *`required agenda in invitations`*, *`after event message, event log`*
+*`ability to the meetings connect online`*, *`availability of the tools`*, *[daily meetings](../../glossary/#daily-meeting)*, *`planning`*, *`retrospectives`*, *`required agenda in invitations`*, *`after event message, event log`*
 
 {{< alert color="warning" title="Antipattern" >}}1 hour meeting with 30 participants without agenda and written conclusions.{{< /alert >}}
 
