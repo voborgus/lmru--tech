@@ -1,7 +1,11 @@
 .td-navbar .navbar-brand svg {
     height: 60px;
+    position: absolute;
+    top: 0px;
 }
-
+.td-navbar .navbar-brand span.text-uppercase {
+    margin-left: 70px;
+}
 .breadcrumb {
     padding-top: 1rem;
 }

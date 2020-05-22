@@ -33,24 +33,16 @@ We as IT want to bring autonomy to product teams, support it with tools and gove
 <h1 class="text-center">Our Values</h1><br />
 </div>
 
-{{% blocks/feature icon="fa-users" title="People" url="https://github.com/google/docsy-example" %}}
-Personal relationship at the first place
+{{% blocks/feature icon="fa-users" title="People" url="values/people/" %}}
+Personal relationship at the first place.
 {{% /blocks/feature %}}
 
-{{% blocks/feature icon="fa-sitemap" title="Architecture" url="https://github.com/google/docsy-example" %}}
+{{% blocks/feature icon="fa-sitemap" title="Architecture" url="values/architecture/" %}}
 We are building long-term systems and care about technical debt.
 {{% /blocks/feature %}}
 
-{{% blocks/feature icon="fa-memory" title="Technologies" url="https://twitter.com/docsydocs" %}}
+{{% blocks/feature icon="fa-memory" title="Technology" url="values/technology/" %}}
 Сonstantly challenging selection of tools.
-{{% /blocks/feature %}}
-
-{{% blocks/feature icon="fa-microchip" title="Infrastructure" url="https://twitter.com/docsydocs" %}}
-Base requirements for success development.
-{{% /blocks/feature %}}
-
-{{% blocks/feature icon="fa-handshake" title="Processes and Rituals" url="https://twitter.com/docsydocs" %}}
-Reduces time waists and keeps everybody with up-to-date information.
 {{% /blocks/feature %}}
 
 {{< /blocks/section >}}
