@@ -12,7 +12,7 @@ linkTitle = "Leroy Merlin Tech"
 		Developer Portal (internal) <i class="fab fa-dev ml-2 "></i>
 	</a> -->
 	<a class="btn btn-lg btn-info mr-3 mb-4" href="glossary/">
-		Glossary <i class="fab fa-github ml-2 "></i>
+		Glossary <i class="fas fa-journal-whills ml-2 "></i>
 	</a>
 	<p class="lead mt-5">Company's engineering culture site</p>
 	{{< blocks/link-down color="info" >}}
@@ -20,14 +20,20 @@ linkTitle = "Leroy Merlin Tech"
 </div>
 {{< /blocks/cover >}}
 
+{{< blocks/lead color="primary" >}}
+**Leroy Merlin Russia is the leading Do It Yourself retail company.**
 
-{{% blocks/lead color="primary" %}}
-Our mission is to build **Retailer — technology company-platform**.
+We are making affordable for everyone the repair and home improvement.
 
-We as IT want to bring autonomy to product teams, support it with tools and governance to increase productivity and ensure the required level of quality.
+{{< /blocks/lead >}}
+
+{{% blocks/lead color="dark" %}}
+We as IT want to build **Retailer — technology company-platform**.
+
+Our mission is bring autonomy to product teams, support it with tools and governance to increase productivity and ensure the required level of quality.
 {{% /blocks/lead %}}
 
-{{< blocks/section color="dark" >}}
+{{< blocks/section color="light" >}}
 
 <div class="col-12">
 <h1 class="text-center">Our Values</h1><br />
