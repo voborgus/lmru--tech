@@ -1,21 +1,12 @@
 +++
-title = "TechOS"
-linkTitle = "TechOS"
+title = "Леруа Мерлен Tech"
+linkTitle = "Леруа Мерлен Tech"
 
 +++
 
-{{< blocks/cover title="Добро пожаловать в технологии Леруа Мерлен" image_anchor="top" height="full" >}}
+{{< blocks/cover title="Добро пожаловать в Леруа Мерлен Tech" image_anchor="top" height="full" >}}
 <div class="mx-auto">
-	<a class="btn btn-lg btn-primary mr-3 mb-4" href="{{< relref "/docs" >}}">
-		Dokumentasjon <i class="fas fa-arrow-alt-circle-right ml-2"></i>
-	</a>
-	<a class="btn btn-lg btn-secondary mr-3 mb-4" href="https://github.com/bep">
-		Last ned <i class="fab fa-github ml-2 "></i>
-	</a>
-	<p class="lead mt-5">TechOS kan nå lastes ned i <a href="#">AppStore!</a></p>
-	<div class="mx-auto mt-5">
-		{{< blocks/link-down color="info" >}}
-	</div>
+<b>Помогите перевести контент на русский, отправьте Pull Request.</b>
 </div>
 {{< /blocks/cover >}}
 

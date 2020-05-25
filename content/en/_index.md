@@ -1,18 +1,18 @@
 +++
-title = "Leroy Merlin Technology"
-linkTitle = "Leroy Merlin Technology"
+title = "Leroy Merlin Tech"
+linkTitle = "Leroy Merlin Tech"
 +++
 
-{{< blocks/cover title="Welcome to Leroy Merlin technology portal" image_anchor="top" height="full" color="orange" >}}
+{{< blocks/cover title="Welcome to Leroy Merlin Tech" image_anchor="top" height="full" color="orange" >}}
 <div class="mx-auto">
-	<a class="btn btn-lg btn-primary mr-3 mb-4" href="#td-block-1">
+	<a class="btn btn-lg btn-primary mr-3 mb-4" href="values/">
 		Our Values <i class="fas fa-gem ml-2"></i> 
 	</a>
-	<a class="btn btn-lg btn-secondary mr-3 mb-4" href="https://developers.apigee.lmru.tech/">
+	<!-- <a class="btn btn-lg btn-secondary mr-3 mb-4" href="https://developers.apigee.lmru.tech/">
 		Developer Portal (internal) <i class="fab fa-dev ml-2 "></i>
-	</a>
-	<a class="btn btn-lg btn-info mr-3 mb-4" href="https://github.com/adeo/">
-		GitHub Organization <i class="fab fa-github ml-2 "></i>
+	</a> -->
+	<a class="btn btn-lg btn-info mr-3 mb-4" href="glossary/">
+		Glossary <i class="fab fa-github ml-2 "></i>
 	</a>
 	<p class="lead mt-5">Company's engineering culture site</p>
 	{{< blocks/link-down color="info" >}}
