@@ -5,16 +5,18 @@ linkTitle = "Leroy Merlin Tech"
 
 {{< blocks/cover title="Welcome to Leroy Merlin Tech" image_anchor="top" height="full" color="orange" >}}
 <div class="mx-auto">
+	<a class="btn btn-lg btn-secondary mr-3 mb-4" href="https://developers.apigee.lmru.tech/">
+		<i class="fas fa-caret-square-up mr-2 "></i> About Company
+	</a>
 	<a class="btn btn-lg btn-primary mr-3 mb-4" href="values/">
-		Our Values <i class="fas fa-gem ml-2"></i> 
+		Our Values 
 	</a>
-	<!-- <a class="btn btn-lg btn-secondary mr-3 mb-4" href="https://developers.apigee.lmru.tech/">
-		Developer Portal (internal) <i class="fab fa-dev ml-2 "></i>
-	</a> -->
+	<!--
 	<a class="btn btn-lg btn-info mr-3 mb-4" href="glossary/">
-		Glossary <i class="fas fa-journal-whills ml-2 "></i>
+		<i class="fas fa-journal-whills mr-2 "></i> Glossary
 	</a>
-	<p class="lead mt-5">Company's engineering culture site</p>
+	-->
+	<p class="lead" id="main-subtitle">Company's engineering culture site</p>
 	{{< blocks/link-down color="info" >}}
 	
 </div>
