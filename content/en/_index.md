@@ -5,7 +5,7 @@ linkTitle = "Leroy Merlin Tech"
 
 {{< blocks/cover title="Welcome to Leroy Merlin Tech" image_anchor="top" height="full" color="orange" >}}
 <div class="mx-auto">
-	<a class="btn btn-lg btn-secondary mr-3 mb-4" href="https://developers.apigee.lmru.tech/">
+	<a class="btn btn-lg btn-secondary mr-3 mb-4" href="about/">
 		<i class="fas fa-caret-square-up mr-2 "></i> About Company
 	</a>
 	<a class="btn btn-lg btn-primary mr-3 mb-4" href="values/">
@@ -78,7 +78,7 @@ Check out [our vacancies](https://hh.ru/search/vacancy?text=%D0%9B%D0%B5%D1%80%D
 {{% /blocks/feature %}}
 
 {{% blocks/feature icon="fa-globe" title="Global community" %}}
-Leroy Merlin is part of [Adeo Group](https://www.adeo.com/).
+Leroy Merlin is the part of [Adeo Group](https://www.adeo.com/).
 {{% /blocks/feature %}}
 
 {{< /blocks/section >}}
