@@ -11,11 +11,12 @@ menu:
 ## A
 
 ### After event message
+After the meeting message contains event log and all desitions made and sent to all participants.
 
 *[← back to value](../values/people/#3-we-respect-colleagues-time)*
 
 ### Availability of the tools
-We are working on corporate notebooks and can take them wherever we want. All tools and environments are available on the internet or through VPN.
+We can take corporate notebooks wherever we want. All tools and environments are available on the internet or through VPN.
 
 *[← back to value](../values/people/#3-we-respect-colleagues-time)*
 <hr />
@@ -23,10 +24,12 @@ We are working on corporate notebooks and can take them wherever we want. All to
 ## B
 
 ### Blocking code review
+To not take new task while another issue is ready for code review. 
 
 *[← back to value](../values/people/#1-common-goals-are-more-important-than-individual)*
 
 ### BORD
+Once a year feedback session. Used also for yearly goals standing.
 
 *[← back to value](../values/people/#4-we-give-and-request-constructive-feedback)*
 <hr />
@@ -68,7 +71,7 @@ We are working on corporate notebooks and can take them wherever we want. All to
 
 
 ### Online Meetings Requirement
-Each meeting accessible to connect remotely by demand.
+Each meeting accessible remotely by demand.
 
 *[← back to value](../values/people/#3-we-respect-colleagues-time)*
 <hr />
