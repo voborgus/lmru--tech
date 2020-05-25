@@ -59,7 +59,7 @@ Content under construction: the set of values is not accepted and not convenient
 #### Practices & rituals: 
 *`bord`*
 
-{{< alert color="warning" title="Antipattern" >}}Your code is a shitty peace of spaghetti.{{< /alert >}}
+{{< alert color="warning" title="Antipattern" >}}Your code is a shitty piece of spaghetti.{{< /alert >}}
 
 ### 5. Your job is safe, your role is not.
 
