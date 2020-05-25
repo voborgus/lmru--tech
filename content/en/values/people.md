@@ -1,7 +1,6 @@
 ---
 title: "People"
 linkTitle: "People"
-date: 2017-01-05
 weight: 10
 type: docs
 description: >
@@ -20,7 +19,7 @@ Content under construction: the set of values is not accepted and not convenient
 * We have mentors. We can ask anyone to be mentor. 
 
 #### Practices & rituals: 
-*`blocking code-review rule`*, *`regular communities meetings`, `useful information channels`*, *`onboarding check-list with a required mentor`*
+*[blocking code-review](../../glossary/#blocking-code-review)*, *[communities](../../glossary/#communities)*, *[onboarding check-list with a required mentor](../../glossary/#onboarding-check-list)*
 
 {{< alert color="warning" title="Antipattern" >}}Overfulfill your own tasks while your colleague can not finish in time and you were able to help.{{< /alert >}}
 
@@ -34,7 +33,7 @@ Content under construction: the set of values is not accepted and not convenient
 * Mistakes term do not include intentional violation of the rules or laziness. 
 
 #### Practices & rituals: 
-*`fail fast rule`*, *`mandatory post-mortems rule`*
+*[fail fast rule](../../glossary/#fail-fast-rule)*, *[post-mortems](../../glossary/#post-mortem)*
 
 {{< alert color="warning" title="Antipattern" >}}Unprofitable product continues to develop for a long time because it is scary to admit a mistake.{{< /alert >}}
 
@@ -46,7 +45,7 @@ Content under construction: the set of values is not accepted and not convenient
 * We know goals of every meeting and record all decisions.
 
 #### Practices & rituals: 
-*[online meetings requirement](../../glossary/#online-meetings-requirement)*, *[availability of the tools](../../glossary/#availability-of-the-tools)*, *[daily meetings](../../glossary/#daily-meeting)*, *[planning](../../glossary/#planning-of-the-sprint)*, *`retrospectives`*, *`required agenda in invitations`*, *`after event message, event log`*
+*[online meetings requirement](../../glossary/#online-meetings-requirement)*, *[availability of the tools](../../glossary/#availability-of-the-tools)*, *[daily meetings](../../glossary/#daily-meeting)*, *[planning](../../glossary/#planning-of-the-sprint)*, *[retrospectives](../../glossary/#retrospective)*, *[required agenda in invitation](../../glossary/#required-agenda-in-invitation)*, *[after event message](../../glossary/#after-event-message)*
 
 {{< alert color="warning" title="Antipattern" >}}1 hour meeting with 30 participants without agenda and written conclusions.{{< /alert >}}
 
@@ -57,7 +56,7 @@ Content under construction: the set of values is not accepted and not convenient
 * We are respectful to each other. 
 
 #### Practices & rituals: 
-*`bord`*
+*[BORD](../../glossary/#bord)*
 
 {{< alert color="warning" title="Antipattern" >}}Your code is a shitty piece of spaghetti.{{< /alert >}}
 
@@ -67,6 +66,6 @@ Content under construction: the set of values is not accepted and not convenient
 * Changing of role and team and staying in a company is better than leave.
 
 #### Practices & rituals:
-*`internal rotation`*
+*[internal rotation](../../glossary/#internal-rotation)*
 
 {{< alert color="warning" title="Antipattern" >}}After one year of work notice that not learned anything new.{{< /alert >}}
