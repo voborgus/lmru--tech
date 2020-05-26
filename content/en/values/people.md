@@ -51,12 +51,11 @@ Content under construction: the set of values is not accepted and not convenient
 
 ### 4. We give and request constructive feedback.
 
-* We use non-violent communication.
+* We prefer non-violent communication.
 * We discuss facts, not emotions.
-* We are respectful to each other. 
 
 #### Practices & rituals: 
-*[BORD](../../glossary/#bord)*
+*[BORD](../../glossary/#bord)*, *[did something, ask for feedback](../../glossary/#did-something-ask-for-feedback)*
 
 {{< alert color="warning" title="Antipattern" >}}Your code is a shitty piece of spaghetti.{{< /alert >}}
 
