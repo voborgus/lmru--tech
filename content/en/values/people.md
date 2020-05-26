@@ -55,7 +55,7 @@ Content under construction: the set of values is not accepted and not convenient
 * We discuss facts, not emotions.
 
 #### Practices & rituals: 
-*[BORD](../../glossary/#bord)*, *[did something, ask for feedback](../../glossary/#did-something-ask-for-feedback)*
+*[BORD](../../glossary/#bord)*, *[did something — ask for feedback](../../glossary/#did-something-ask-for-feedback)*
 
 {{< alert color="warning" title="Antipattern" >}}Your code is a shitty piece of spaghetti.{{< /alert >}}
 
