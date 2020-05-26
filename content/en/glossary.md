@@ -60,6 +60,8 @@ Once a year feedback session. Used also for yearly goals standing.
 
 ### Internal Rotation
 
+Want to change job — ask HR for options.
+
 *[← back to value](../values/people/#5-your-job-is-safe-your-role-is-not)*
 <hr />
 
