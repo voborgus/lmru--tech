@@ -37,7 +37,7 @@ Content under construction: the set of values is not accepted and not convenient
 
 {{< alert color="warning" title="Antipattern" >}}Unprofitable product continues to develop for a long time because it is scary to admit a mistake.{{< /alert >}}
 
-### 3. We respect colleagues time.
+### 3. We respect colleagues and their time.
 
 * We can work remotely. 
 * We respect team rules. 
