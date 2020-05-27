@@ -52,7 +52,7 @@ Content under construction: the set of values is not accepted and not convenient
 ### 4. We give and request constructive feedback.
 
 * We prefer non-violent communication.
-* We discuss facts, not emotions.
+* We discuss facts, not emotions or personality.
 
 #### Practices & rituals: 
 *[BORD](../../glossary/#bord)*, *[did something — ask for feedback](../../glossary/#did-something-ask-for-feedback)*
