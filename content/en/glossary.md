@@ -1,13 +1,17 @@
 ---
 title: "Glossary"
-linkTitle: "Glossary"
-
-type: docs
 weight: 30
+type: docs
 menu:
   main:
     weight: 30
 ---
+## #
+
+### 30% rule
+
+*[← back to value](../values/architecture/#1-all-business-services-exposes-their-apis-on-the-developer-portal)*
+
 ## A
 
 ### After event message

@@ -1,10 +1,8 @@
 ---
 title: "People"
-linkTitle: "People"
 weight: 10
 type: docs
-description: >
-  Personal relationship at the first place.
+description: Personal relationship at the first place.
 ---
 
 {{% pageinfo %}}

@@ -1,10 +1,8 @@
 ---
 title: "Technology"
-linkTitle: "Technology"
 weight: 30
 type: docs
-description: >
-  Сonstantly challenging selection of tools.
+description: Сonstantly challenging selection of tools.
 ---
 
 {{% pageinfo %}}
