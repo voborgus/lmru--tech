@@ -39,10 +39,10 @@ Content under construction: the set of values is not accepted and not convenient
 
 ### 3. We respect colleagues and their time.
 
-* We can work remotely. 
 * We respect team rules. 
 * We prefer non-formal style of communication to officialism.
 * We know goals of every meeting and record all decisions.
+* We may work remotely. 
 
 #### Practices & rituals: 
 *[online meetings requirement](../../glossary/#online-meetings-requirement)*, *[availability of the tools](../../glossary/#availability-of-the-tools)*, *[daily meetings](../../glossary/#daily-meeting)*, *[planning](../../glossary/#planning-of-the-sprint)*, *[retrospectives](../../glossary/#retrospective)*, *[required agenda in invitation](../../glossary/#required-agenda-in-invitation)*, *[after event message](../../glossary/#after-event-message)*
