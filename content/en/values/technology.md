@@ -20,7 +20,7 @@ Content under construction: the set of values is not accepted and not convenient
 #### Practices & rituals: 
 *[30% rule](../../glossary/#30-rule)*
 
-{{< alert color="warning" title="Antipattern" >}}Closed repository without readme and maintainers working in production.{{< /alert >}}
+{{< alert color="danger" title="Antipattern" >}}Closed repository without readme and maintainers working in production.{{< /alert >}}
 
 <hr>
 
@@ -32,7 +32,7 @@ Content under construction: the set of values is not accepted and not convenient
 #### Practices & rituals: 
 *[DevOps](../../glossary/#)*
 
-{{< alert color="warning" title="Antipattern" >}}It is scary to make release because of plenty of manual work and rare occasion.{{< /alert >}}
+{{< alert color="danger" title="Antipattern" >}}It is scary to make release because of plenty of manual work and rare occasion.{{< /alert >}}
 
 <hr>
 
@@ -44,7 +44,7 @@ Content under construction: the set of values is not accepted and not convenient
 #### Practices & rituals: 
 *[Technology Committee](../../glossary/#)*
 
-{{< alert color="warning" title="Antipattern" >}}Manager orders an external company to write a non-maintainable black-box application on 1C.{{< /alert >}}
+{{< alert color="danger" title="Antipattern" >}}Manager orders an external company to write a non-maintainable black-box application on 1C.{{< /alert >}}
 
 <hr>
 
@@ -53,7 +53,7 @@ Content under construction: the set of values is not accepted and not convenient
 * It is recommended to use starters provided by design team.
 * All business settings are configurable through UI.
 
-{{< alert color="warning" title="Antipattern" >}}Built in store application uses Comic Sans.{{< /alert >}}
+{{< alert color="danger" title="Antipattern" >}}Built in store application uses Comic Sans.{{< /alert >}}
 
 <hr>
 
@@ -72,7 +72,7 @@ Content under construction: the set of values is not accepted and not convenient
 #### Practices & rituals: 
 *[access roles](../../glossary/#)*, encryption, valet
 
-{{< alert color="warning" title="Antipattern" >}}Monolith uses stored procedures in the database and run in plain hardware.{{< /alert >}}
+{{< alert color="danger" title="Antipattern" >}}Monolith uses stored procedures in the database and run in plain hardware.{{< /alert >}}
 
 <hr>
 
@@ -84,4 +84,4 @@ Content under construction: the set of values is not accepted and not convenient
 #### Practices & rituals: 
 *[disaster recovery](../../glossary/#disaster-recovery)*, cache answers, degraded mode, retry, timeout, circuit breaker, tolerant reader
 
-{{< alert color="warning" title="Antipattern" >}}Client can't order because email system is broken.{{< /alert >}}
+{{< alert color="danger" title="Antipattern" >}}Client can't order because email system is broken.{{< /alert >}}

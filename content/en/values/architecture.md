@@ -23,7 +23,7 @@ Content under construction: the set of values is not accepted and not convenient
 #### Practices & rituals: 
 *[30% rule](../../glossary/#blocking-code-review)*
 
-{{< alert color="warning" title="Antipattern" >}}GraphQL or GRPC endpoint exposed for external usage.{{< /alert >}}
+{{< alert color="danger" title="Antipattern" >}}GraphQL or GRPC endpoint exposed for external usage.{{< /alert >}}
 
 <hr>
 
@@ -37,7 +37,7 @@ Content under construction: the set of values is not accepted and not convenient
 #### Practices & rituals: 
 *[high cohesion](../../glossary/#blocking-code-review)*, gateway, external configuration, orchestration/choreography, Solution Architect Review
 
-{{< alert color="warning" title="Antipattern" >}}Microservices with hardcoded steps and multiple entries.{{< /alert >}}
+{{< alert color="danger" title="Antipattern" >}}Microservices with hardcoded steps and multiple entries.{{< /alert >}}
 
 <hr>
 
@@ -49,4 +49,4 @@ Content under construction: the set of values is not accepted and not convenient
 #### Practices & rituals: 
 *[blocking code-review](../../glossary/#blocking-code-review)*, revenue / expenses ratio, KISS
 
-{{< alert color="warning" title="Antipattern" >}}We are using some technology only because of hype or fashion.{{< /alert >}}
+{{< alert color="danger" title="Antipattern" >}}We are using some technology only because of hype or fashion.{{< /alert >}}
