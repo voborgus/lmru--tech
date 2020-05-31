@@ -9,7 +9,7 @@ menu:
     weight: 20
 ---
 
-{{% pageinfo %}}
+{{% pageinfo color="warning" %}}
 <h3>Work in progress</h3><br />
 Content under construction: the set of values is not accepted and not convenient for use yet. <br /><br />
 {{% /pageinfo %}}

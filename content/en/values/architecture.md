@@ -5,7 +5,7 @@ type: docs
 description: We are building long-term systems and care about technical debt.
 ---
 
-{{% pageinfo %}}
+{{% pageinfo color="warning" %}}
 <h3>Work in progress</h3><br />
 Content under construction: the set of values is not accepted and not convenient for use yet. <br /><br />
 {{% /pageinfo %}}
@@ -13,8 +13,8 @@ Content under construction: the set of values is not accepted and not convenient
 ### 1. We care about API cleanness.
 
 
-* All business services exposes their APIs on the Developer Portal. *[<i class="fa fa-ethernet"></i> [internal link]](https://developers.apigee.lmru.tech/)*
-* We are following API Design Principles. *[<i class="fa fa-ethernet"></i> [internal link, will be published]](https://confluence.lmru.tech/display/APIHD/API+design+rules)*
+* All business services exposes their APIs on the Developer Portal. *[<i class="fa fa-ethernet"></i> internal ](https://developers.apigee.lmru.tech/)*
+* We are following API Design Principles. *[<i class="fa fa-ethernet"></i> internal, will be published](https://confluence.lmru.tech/display/APIHD/API+design+rules)*
 * We use REST API for synchronous and all our API level 2 mature.
 * We use AMQP or Kafka for asynchronous communication.
 * Non compliant APIs should declared as a technical debt and to be changed. (30% rule)
@@ -23,7 +23,7 @@ Content under construction: the set of values is not accepted and not convenient
 #### Practices & rituals: 
 *[30% rule](../../glossary/#blocking-code-review)*
 
-{{< alert color="warning" title="Antipattern" >}}Use GraphQL or GRPC for communication.{{< /alert >}}
+{{< alert color="warning" title="Antipattern" >}}GraphQL or GRPC endpoint exposed for external usage.{{< /alert >}}
 
 <hr>
 

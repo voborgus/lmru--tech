@@ -8,7 +8,7 @@ linkTitle = "Leroy Merlin Tech"
 	<a class="btn btn-lg btn-secondary mr-3 mb-4" href="about/">
 		<i class="fas fa-caret-square-up mr-2 "></i> About Company
 	</a>
-	<a class="btn btn-lg btn-primary mr-3 mb-4" href="values/">
+	<a class="btn btn-lg btn-warning mr-3 mb-4" href="values/">
 		Our Values 
 	</a>
 	<!--
@@ -17,7 +17,7 @@ linkTitle = "Leroy Merlin Tech"
 	</a>
 	-->
 	<p class="lead" id="main-subtitle">Company's engineering culture site</p>
-	{{< blocks/link-down color="info" >}}
+	{{< blocks/link-down color="secondary" >}}
 	
 </div>
 {{< /blocks/cover >}}
@@ -29,13 +29,13 @@ We are making affordable for everyone the repair and improve their homes.
 
 {{< /blocks/lead >}}
 
-{{% blocks/lead color="dark" %}}
+{{% blocks/lead color="secondary" %}}
 We as IT want to build **Retailer — technology company-platform**.
 
 Our mission is bring autonomy to product teams, support it with tools and governance to increase productivity and ensure the required level of quality.
 {{% /blocks/lead %}}
 
-{{< blocks/section color="light" >}}
+{{< blocks/section color="white" >}}
 
 <div class="col-12">
 <h1 class="text-center">Our Values</h1><br />
@@ -66,7 +66,7 @@ We are building long-term systems and care about technical debt.
 
 
 
-{{< blocks/section >}}
+{{< blocks/section color="light">}}
 
 {{% blocks/feature icon="fab fa-github" title="Contributions welcome" %}}
 This site generated from GitHub repository. <br /> Send a [Pull Request](https://github.com/adeo/lmru--technology/pulls) for change.
