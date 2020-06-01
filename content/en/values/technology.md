@@ -30,7 +30,7 @@ Content under construction: the set of values is not accepted and not convenient
 * Build & Deploy should be done automatically or by manual click on CI tool.
 
 #### Practices & rituals: 
-*[DevOps](../../glossary/#)*
+*[DevOps](../../glossary/#devops)*
 
 {{< alert color="danger" title="Antipattern" >}}It is scary to make release because of plenty of manual work and rare occasion.{{< /alert >}}
 
@@ -70,7 +70,7 @@ Content under construction: the set of values is not accepted and not convenient
 * Services provides SLA for  endpoints.
 
 #### Practices & rituals: 
-*[access roles](../../glossary/#)*, encryption, valet
+distributed tracing, RBAC, encryption, valet
 
 {{< alert color="danger" title="Antipattern" >}}Monolith uses stored procedures in the database and run in plain hardware.{{< /alert >}}
 
@@ -82,6 +82,6 @@ Content under construction: the set of values is not accepted and not convenient
 * We handle partial outages
 
 #### Practices & rituals: 
-*[disaster recovery](../../glossary/#disaster-recovery)*, cache answers, degraded mode, retry, timeout, circuit breaker, tolerant reader
+disaster recovery, cache answers, degraded mode, retry, timeout, circuit breaker, tolerant reader
 
 {{< alert color="danger" title="Antipattern" >}}Client can't order because email system is broken.{{< /alert >}}
