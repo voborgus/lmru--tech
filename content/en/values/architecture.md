@@ -12,7 +12,6 @@ Content under construction: the set of values is not accepted and not convenient
 
 ### 1. We care about API cleanness.
 
-
 * All business services exposes their APIs on the Developer Portal. *[<i class="fa fa-ethernet"></i> internal ](https://developers.apigee.lmru.tech/)*
 * We are following API Design Principles. *[<i class="fa fa-ethernet"></i> internal, will be published](https://confluence.lmru.tech/display/APIHD/API+design+rules)*
 * We use REST API for synchronous and all our API level 2 mature.
@@ -21,7 +20,7 @@ Content under construction: the set of values is not accepted and not convenient
 * Services do not provide a client library. The API and its data model are expressed as REST and JSON.
 
 #### Practices & rituals: 
-*[30% rule](../../glossary/#blocking-code-review)*
+*[30% rule](../../glossary/#30-rule)*
 
 {{< alert color="danger" title="Antipattern" >}}GraphQL or GRPC endpoint exposed for external usage.{{< /alert >}}
 
@@ -35,7 +34,7 @@ Content under construction: the set of values is not accepted and not convenient
 * We periodically review important architecture and technical debt issues. 
 
 #### Practices & rituals: 
-*[high cohesion](../../glossary/#blocking-code-review)*, gateway, external configuration, orchestration/choreography, Solution Architect Review
+*[high cohesion](../../glossary/#high-cohesion)*, *[external configuration](../../glossary/#external-configuration)*, *[orchestration/choreography](../../glossary/#orchestration-choreography)*, *[Solution Architect Review](../../glossary/#solution-architect-review)*
 
 {{< alert color="danger" title="Antipattern" >}}Microservices with hardcoded steps and multiple entries.{{< /alert >}}
 
@@ -47,6 +46,6 @@ Content under construction: the set of values is not accepted and not convenient
 * Every system have single mantainer team.
 
 #### Practices & rituals: 
-*[blocking code-review](../../glossary/#blocking-code-review)*, revenue / expenses ratio, KISS
+*[revenue / expenses ratio](../../glossary/#revenue-expenses-ratio)*, *[KISS](../../glossary/#kiss)*
 
 {{< alert color="danger" title="Antipattern" >}}We are using some technology only because of hype or fashion.{{< /alert >}}
