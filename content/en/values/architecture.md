@@ -16,7 +16,7 @@ Content under construction: the set of values is not accepted and not convenient
 * We are following [API Design Principles](../../api/).
 * We use REST API for synchronous and all our [API level 2](https://dsugrobov.github.io/technology/api/sync/) mature.
 * We use AMQP or Kafka for asynchronous communication.
-* Non compliant APIs should declared as a technical debt and to be changed. (30% rule)
+* Non compliant APIs should declared as a technical debt and to be changed.
 * Services do not provide a client library. The API and its data model are expressed as REST and JSON.
 
 #### Practices & rituals: 
