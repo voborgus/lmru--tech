@@ -14,7 +14,7 @@ Content under construction: the set of values is not accepted and not convenient
 
 * All business services exposes their APIs on the Developer Portal. *[<i class="fa fa-lock"></i> internal ](https://developers.apigee.lmru.tech/)*
 * We are following [API Design Principles](../../api/).
-* We use REST API for synchronous and all our API level 2 mature.
+* We use REST API for synchronous and all our [API level 2](https://dsugrobov.github.io/technology/api/sync/) mature.
 * We use AMQP or Kafka for asynchronous communication.
 * Non compliant APIs should declared as a technical debt and to be changed. (30% rule)
 * Services do not provide a client library. The API and its data model are expressed as REST and JSON.
