@@ -29,4 +29,4 @@ API Management is the core strategy to build platform business model & support p
 </div>
 </div>
 
-All company endpoints divided by domains are available on [<i class="fa fa-ethernet"></i> Developers Portal](https://developers.apigee.lmru.tech/) (internal, for now).
+All company endpoints divided by domains are available on [<i class="fa fa-lock"></i> Developers Portal](https://developers.apigee.lmru.tech/) (internal, for now).

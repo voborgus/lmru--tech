@@ -11,11 +11,9 @@ linkTitle = "Leroy Merlin Tech"
 	<a class="btn btn-lg btn-warning mr-3 mb-4" href="values/">
 		Our Values 
 	</a>
-	<!--
-	<a class="btn btn-lg btn-info mr-3 mb-4" href="glossary/">
-		<i class="fas fa-journal-whills mr-2 "></i> Glossary
+	<a class="btn btn-lg btn-info mr-3 mb-4" href="api/">
+		<i class="fas fa-location-arrow mr-2 "></i> API
 	</a>
-	-->
 	<p class="lead" id="main-subtitle">Company's engineering culture site</p>
 	{{< blocks/link-down color="secondary" >}}
 	
