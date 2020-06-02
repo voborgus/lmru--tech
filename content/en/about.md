@@ -1,5 +1,6 @@
 ---
-title: "About"
+title: "About Leroy Merlin Russia"
+linkTitle: "About"
 
 type: docs
 weight: 20
