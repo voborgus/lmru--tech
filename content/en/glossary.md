@@ -1,10 +1,10 @@
 ---
 title: "Glossary"
-weight: 30
+weight: 40
 type: docs
 menu:
   main:
-    weight: 30
+    weight: 40
 ---
 ## #
 

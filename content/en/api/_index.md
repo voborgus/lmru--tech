@@ -2,11 +2,11 @@
 ---
 title: "API"
 linkTitle: "API"
-weight: 40
+weight: 30
 type: docs
 menu:
   main:
-    weight: 40
+    weight: 30
 no_list: true
 ---
 
