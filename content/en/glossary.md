@@ -6,7 +6,7 @@ menu:
   main:
     weight: 40
 ---
-## #
+## \#
 
 ### 30% rule
 Each engineer may spend 30 percents of his working time on R&D tasks or technical debt reduction.
