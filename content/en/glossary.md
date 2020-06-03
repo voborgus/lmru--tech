@@ -96,7 +96,7 @@ Want to change job — ask HR for options.
 
 ## K
 ### KISS
-Keep It Stupid Simple. Like Occam said, «[entities should not be multiplied without necessity](https://en.wikipedia.org/wiki/Occam%27s_razor)». Adding new levels of abstraction must have a strong reason. Adding new data entities or solution components also must have strong reason. Simplification is a King and we welcome the approach to describe it as an architecture debt and rework the complex areas to make it simple. The decision is made at the level of a technical and solution architect, in controversial situations we made decisions on the Architecture Committee.
+Keep It Stupid Simple. Like Occam said, «[entities should not be multiplied without necessity](https://en.wikipedia.org/wiki/Occam%27s_razor)». Adding new levels of abstraction must have a strong reason. Adding new data entities or solution components also must have strong reason. Simplification is a King and we welcome the approach to describe it as an architecture debt and rework the complex areas to make it simple. The decision is made at the level of a technical and solution architect, in controversial situations we made decisions on the [Architecture Committee](#solution-architect-review).
 
 *[← back to value](../values/architecture/#3-we-develop-only-economically-sustainable-products)*
 <hr />
@@ -150,7 +150,7 @@ An estimated amount of money earned by product or feature divided on spends on i
 
 ## S
 ### Solution Architect Review
-Enterprise & Solution architects meeting. Held by demand. Leader – CTO.
+Also known as Architecture Committee. Enterprise & Solution architects meeting. Held by demand. Leader – CTO.
 
 Main tasks: 
 
