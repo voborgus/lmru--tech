@@ -13,3 +13,9 @@ git clone --recurse-submodules --depth 1 https://github.com/adeo/lmru--technolog
 cd docsy-example
 hugo server
 ```
+
+## Contributing
+
+All content crafted manually by group of enthusiasts. You can find `.md` files in the `content` folder. Contribution is welcomed, let's build, support and describe the best engineering culture.
+
+Feel free to open PR or Issue in this repo. In case of any questions, contact with Dmitrii Sugrobov.
