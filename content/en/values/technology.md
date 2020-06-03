@@ -80,6 +80,7 @@ distributed tracing, RBAC, encryption, valet
 
 * We response accurately and correctly handle wrong inputs.
 * We handle partial outages
+* Our key systems are covered with master-master replication.
 
 #### Practices & rituals: 
 disaster recovery, cache answers, degraded mode, retry, timeout, circuit breaker, tolerant reader
