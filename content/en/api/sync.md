@@ -2,7 +2,6 @@
 title: "Synchronous API Design Principles"
 weight: 30
 type: docs
-
 ---
 
 Well-designed REST API attract developers to build apps that use them. An API interface should be easy to understand and intuitive to the developers.
