@@ -36,7 +36,7 @@ Content under construction: the set of values is not accepted and not convenient
 
 <hr>
 
-### 3. Choice of technology should be aligned with technology table. **Link TBA**
+### 3. Choice of technology should be aligned with [Technology Table](../../stack/).
 
 * Table is kept up-to-date by technology committee.
 * We support iniciatives to try new technology or approach after notice of technology committee.
