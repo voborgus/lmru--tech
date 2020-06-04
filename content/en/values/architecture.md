@@ -46,6 +46,6 @@ Content under construction: the set of values is not accepted and not convenient
 * Every system have single mantainer team.
 
 #### Practices & rituals: 
-*[revenue / expenses ratio](../../glossary/#revenue-expenses-ratio)*, *[KISS](../../glossary/#kiss)*
+*[revenue / expenses ratio](../../glossary/#revenue--expenses-ratio)*, *[KISS](../../glossary/#kiss)*
 
 {{< alert color="danger" title="Antipattern" >}}We are using some technology only because of hype or fashion.{{< /alert >}}
