@@ -1,4 +1,4 @@
-![github pages](https://github.com/dsugrobov/technology/workflows/github%20pages/badge.svg) 
+![github pages](https://github.com/adeo/lmru--tech/workflows/github%20pages/badge.svg) 
 
 # Leroy Merlin Technology Culture
 
