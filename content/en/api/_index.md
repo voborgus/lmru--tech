@@ -17,8 +17,8 @@ API Management is the core strategy to build platform business model & support p
   <div class="mb-4 h1">
     <i class="fas fa-arrows-alt-h"></i>
   </div>
-  <h4 class="h3">Synchronous</h4>
-  <p class="mb-0"> <i><a href="sync/">[Design Principles]</a></i></p><p>A sender application sends a request to a receiver and must wait for a reply before it can continue with its processing. This pattern is typically used in scenarios where data requests need to be coordinated in a sequential manner.</p>
+  <h4 class="h3"><a href="sync/">Synchronous<br />Design Principles</a></h4>
+  <p>A sender application sends a request to a receiver and must wait for a reply before it can continue with its processing. This pattern is typically used in scenarios where data requests need to be coordinated in a sequential manner.</p>
 </div>
 <div class="col-lg-5 mb-5 mb-lg-0 text-center">
   <div class="mb-4 h1">
