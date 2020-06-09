@@ -56,7 +56,7 @@ title = "Leroy Merlin Tech"
 {{< blocks/section >}}
 <div class="col">
 <h1 class="text-center">Как говорится, work in progress</h1>
-<div class="text-center">Над этим сайтом мы усиленно работаем. Помоги нам, отправь <a href="https://github.com/adeo/lmru--technology/pulls">Пулл Реквест</a>.</div>
+<div class="text-center">Над этим сайтом мы усиленно работаем. Помоги нам, отправь <a href="https://github.com/adeo/lmru--tech/pulls">Пулл Реквест</a>.</div>
 </div>
 
 {{< /blocks/section >}}
@@ -64,7 +64,7 @@ title = "Leroy Merlin Tech"
 {{< blocks/section color="light">}}
 
 {{% blocks/feature icon="fab fa-github" title="Контрибьюции приветствуются" %}}
-Этот сайт полностью на ридмиках в GitHub Pages. <br /> Отправь [Пулл Реквест](https://github.com/adeo/lmru--technology/pulls) для изменения контента.
+Этот сайт полностью на ридмиках в GitHub Pages. <br /> Отправь [Пулл Реквест](https://github.com/adeo/lmru--tech/pulls) для изменения контента.
 {{% /blocks/feature %}}
 
 

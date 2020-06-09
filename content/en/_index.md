@@ -57,7 +57,7 @@ We are building long-term systems and care about technical debt.
 {{< blocks/section >}}
 <div class="col">
 <h1 class="text-center">Work in progress</h1>
-<div class="text-center">This site is currently under construction. You can improve it with <a href="https://github.com/adeo/lmru--technology/pulls">Pull Requests</a>.</div>
+<div class="text-center">This site is currently under construction. You can improve it with <a href="https://github.com/adeo/lmru--tech/pulls">Pull Requests</a>.</div>
 </div>
 
 {{< /blocks/section >}}
@@ -67,7 +67,7 @@ We are building long-term systems and care about technical debt.
 {{< blocks/section color="light">}}
 
 {{% blocks/feature icon="fab fa-github" title="Contributions welcome" %}}
-This site generated from GitHub repository. <br /> Send a [Pull Request](https://github.com/adeo/lmru--technology/pulls) for change.
+This site generated from GitHub repository. <br /> Send a [Pull Request](https://github.com/adeo/lmru--tech/pulls) for change.
 {{% /blocks/feature %}}
 
 
