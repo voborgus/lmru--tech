@@ -2,7 +2,7 @@
 title: "People"
 weight: 10
 type: docs
-description: Personal relationship at the first place.
+description: People are the heart of the company.
 ---
 
 {{% pageinfo color="warning" %}}
@@ -17,9 +17,9 @@ Content under construction: the set of values is not accepted and not convenient
 * We have mentors. We can ask anyone to be mentor. 
 
 #### Practices & rituals: 
-*[blocking code-review](../../glossary/#blocking-code-review)*, *[communities](../../glossary/#communities)*, *[onboarding check-list with a required mentor](../../glossary/#onboarding-check-list)*
+*[communities](../glossary/#communities)*, *[onboarding check-list with a required mentor](../glossary/#onboarding-check-list)*
 
-{{< alert color="danger" title="Antipattern" >}}Overfulfill your own tasks while your colleague can not finish in time and you were able to help.{{< /alert >}}
+{{< alert color="warning" title="Antipattern" >}}Overfulfill your own tasks while your colleague can not finish in time and you were able to help.{{< /alert >}}
 
 <hr>
 
@@ -31,9 +31,9 @@ Content under construction: the set of values is not accepted and not convenient
 * Mistakes term do not include intentional violation of the rules or laziness. 
 
 #### Practices & rituals: 
-*[fail fast rule](../../glossary/#fail-fast-rule)*, *[post-mortems](../../glossary/#post-mortem)*
+*[fail fast rule](../glossary/#fail-fast-rule)*, *[post-mortems](../glossary/#post-mortem)*
 
-{{< alert color="danger" title="Antipattern" >}}Unprofitable product continues to develop for a long time because it is scary to admit a mistake.{{< /alert >}}
+{{< alert color="warning" title="Antipattern" >}}Unprofitable product continues to develop for a long time because it is scary to admit a mistake.{{< /alert >}}
 
 ### 3. We respect colleagues and their time.
 
@@ -43,9 +43,9 @@ Content under construction: the set of values is not accepted and not convenient
 * We may work remotely. 
 
 #### Practices & rituals: 
-*[online meetings requirement](../../glossary/#online-meetings-requirement)*, *[availability of the tools](../../glossary/#availability-of-the-tools)*, *[daily meetings](../../glossary/#daily-meeting)*, *[planning](../../glossary/#planning-of-the-sprint)*, *[retrospectives](../../glossary/#retrospective)*, *[required agenda in invitation](../../glossary/#required-agenda-in-invitation)*, *[after event message](../../glossary/#after-event-message)*
+*[online meetings requirement](../glossary/#online-meetings-requirement)*, *[availability of the tools](../glossary/#availability-of-the-tools)*, *[daily meetings](../glossary/#daily-meeting)*, *[planning](../glossary/#planning-of-the-sprint)*, *[retrospectives](../glossary/#retrospective)*, *[required agenda in invitation](../glossary/#required-agenda-in-invitation)*, *[after event message](../glossary/#after-event-message)*
 
-{{< alert color="danger" title="Antipattern" >}}1 hour meeting with 30 participants without agenda and written conclusions.{{< /alert >}}
+{{< alert color="warning" title="Antipattern" >}}1 hour meeting with 30 participants without agenda and written conclusions.{{< /alert >}}
 
 ### 4. We give and request constructive feedback.
 
@@ -53,9 +53,9 @@ Content under construction: the set of values is not accepted and not convenient
 * We discuss facts, not emotions or personality.
 
 #### Practices & rituals: 
-*[BORD](../../glossary/#bord)*, *[did something — ask for feedback](../../glossary/#did-something-ask-for-feedback)*
+*[BORD](../glossary/#bord)*, *[did something — ask for feedback](../glossary/#did-something-ask-for-feedback)*
 
-{{< alert color="danger" title="Antipattern" >}}Your code is a shitty piece of spaghetti.{{< /alert >}}
+{{< alert color="warning" title="Antipattern" >}}Your code is a shitty piece of spaghetti.{{< /alert >}}
 
 ### 5. Your job is safe, your role is not.
 
@@ -63,6 +63,6 @@ Content under construction: the set of values is not accepted and not convenient
 * Changing of role and team and staying in a company is better than leave.
 
 #### Practices & rituals:
-*[internal rotation](../../glossary/#internal-rotation)*
+*[internal rotation](../glossary/#internal-rotation)*
 
-{{< alert color="danger" title="Antipattern" >}}After one year of work notice that not learned anything new.{{< /alert >}}
+{{< alert color="warning" title="Antipattern" >}}After one year of work notice that not learned anything new.{{< /alert >}}
