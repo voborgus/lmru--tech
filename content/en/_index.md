@@ -40,7 +40,7 @@ Our mission is bring autonomy to product teams, support it with tools and govern
 </div>
 
 {{% blocks/feature icon="fa-users" title="People" url="values/people/" %}}
-Personal relationship at the first place.
+People are the heart of the company.
 {{% /blocks/feature %}}
 
 {{% blocks/feature icon="fa-sitemap" title="Architecture" url="values/architecture/" %}}
