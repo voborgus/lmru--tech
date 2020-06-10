@@ -44,3 +44,4 @@ s
 | Task Tracker | [`Jira`](https://jira.lmru.tech) |
 | Video Conferencing | [`Zoom`](https://leroymerlin.zoom.us) |
 | Incident Management | [`BPM Online`](http://itsm.leroymerlin.ru/) |
+| Endless Boards | [`Miro`](https://miro.com/) |
