@@ -10,7 +10,7 @@ menu:
 no_list: true
 ---
 
-API Management is the core strategy to build platform business model & support product teams transformation. It allows to improve Time To Market, decrease risk of security breaches & business continuity, significantly decrease costs by reusing components, provides transparency on quality of services, impact, technical debt & landscape visibility.
+API Management is the core strategy to build platform business model & support product teams transformation. It improves Time To Market, decrease risk of security breaches & business continuity, significantly decrease costs by reusing components, provides transparency on quality of services, impact, technical debt & landscape visibility.
 
 <div class="row mb-2 mt-2">
 			<div class="col-lg-5 mb-5 mb-lg-0 text-center">

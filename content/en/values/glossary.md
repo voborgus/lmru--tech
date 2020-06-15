@@ -5,45 +5,35 @@ type: docs
 description: Practices and rituals supporting values.
 ---
 ## \#
-
 ### 30% rule
-Each engineer may spend 30 percents of his working time on R&D tasks or technical debt reduction.
+Each engineer may spend some part of his working time on R&D tasks or technical debt reduction.
 
 *[← back to Architecture value](../architecture/#1-all-business-services-exposes-their-apis-on-the-developer-portal)* • *[or to Technology value](../technology/#1-all-codebase-should-be-compliant-with-innersource-requirementshttpsadeogithubioinnersource)*
 ## A
-
-### After event message
-After the meeting message contains event log and all desitions made and sent to all participants.
-
-*[← back to value](../people/#3-we-respect-colleagues-time)*
-
 ### Availability of the tools
 We can take corporate notebooks wherever we want. All tools and environments are available on the internet or through VPN.
 
-*[← back to value](../people/#3-we-respect-colleagues-time)*
+*[← back to value](../people/#3-we-respect-colleagues-and-their-time)*
 <hr />
 
 ## B
-
 ### BORD
 Once a year feedback session. Used also for yearly goals standing.
 
 *[← back to value](../people/#4-we-give-and-request-constructive-feedback)*
 <hr />
 
-## C
-
+## С
 ### Communities
 
 *[← back to value](../people/#1-common-goals-are-more-important-than-individual)*
 <hr />
 
 ## D
-
 ### Daily Meeting
 15-minute time-boxed event held each day for the team for the next 24 hours work planning. This optimizes team collaboration and performance by inspecting the work since the last Daily and forecasting upcoming work. [[scrum guide]](https://www.scrumguides.org/scrum-guide.html#events-daily)
 
-*[← back to value](../people/#3-we-respect-colleagues-time)*
+*[← back to value](../people/#3-we-respect-colleagues-and-their-time)*
 
 ### DevOps
 A friendship between developers and operations :) If seriously, I would recommend to read [this book](https://www.amazon.com/Phoenix-Project-DevOps-Helping-Business/dp/0988262592) to understand what is it.
@@ -64,14 +54,12 @@ A changeable configuration of applications should be stored in the environment.
 <hr />
 
 ## F
-
 ### Fail fast rule
 
 *[← back to value](../people/#2-we-accept-mistakes-and-learn-from-them)*
 <hr />
 
 ## H
-
 ### High Cohesion
 High cohesion is when you have a class (or module) that does a well defined job. Low cohesion is when a class does a lot of jobs that don't have much in common. [[source]](https://stackoverflow.com/questions/10830135/what-is-high-cohesion-and-how-to-use-it-make-it)
 
@@ -93,17 +81,6 @@ Keep It Stupid Simple. Like Occam said, «[entities should not be multiplied wit
 <hr />
 
 ## O
-
-### Onboarding check-list
-
-*[← back to value](../people/#1-common-goals-are-more-important-than-individual)*
-
-
-### Online Meetings Requirement
-Each meeting accessible remotely by demand.
-
-*[← back to value](../people/#3-we-respect-colleagues-time)*
-
 ### Orchestration / Choreography
 Microservices pattern for building of sequenses of execution (SAGAs). Short explanation [here](https://medium.com/ingeniouslysimple/choreography-vs-orchestration-a6f21cfaccae). Detailed [here](https://microservices.io/patterns/data/saga.html).
 
@@ -114,7 +91,7 @@ Microservices pattern for building of sequenses of execution (SAGAs). Short expl
 ### Planning
 Special event for planning of the work to be performed. This plan is created by the collaborative work of the entire team. [[scrum guide]](https://www.scrumguides.org/scrum-guide.html#events-planning)
 
-*[← back to value](../people/#3-we-respect-colleagues-time)*
+*[← back to value](../people/#3-we-respect-colleagues-and-their-time)*
 
 ### Post Mortem
 
@@ -122,15 +99,30 @@ Special event for planning of the work to be performed. This plan is created by 
 <hr />
 
 ## R
+### Remote Ready
+The organization modifies its process for meetings, reviews, and other collaboration to accommodate remote work. Remote-only employees have meetings that are built with them in mind.
+
+Other points: 
+
+* Meetings via videoconferencing by default
+* Accessible, structured, and documented team meetings
+* Document, document, document (aka, nothing is word-of-mouth or from memory)
+* No hallway conversations (unless you document them)
+* Planned together-time
+
+More information in the [CircleCI blog](https://circleci.com/blog/how-to-successfully-work-from-home-strategies-for-remote-work/).
+
+*[← back to value](../people/#3-we-respect-colleagues-and-their-time)*
+
 ### Required agenda in invitation
 Each invitation to the meeting should have agenda and the meeting goal.
 
-*[← back to value](../people/#3-we-respect-colleagues-time)*
+*[← back to value](../people/#3-we-respect-colleagues-and-their-time)*
 
 ### Retrospective
 The Retro is the event giving an opportunity for the team to inspect itself and create a plan for improvements to be enacted next time. [[scrum guide]](https://www.scrumguides.org/scrum-guide.html#events-retro)
 
-*[← back to value](../people/#3-we-respect-colleagues-time)*
+*[← back to value](../people/#3-we-respect-colleagues-and-their-time)*
 
 
 ### Revenue / Expenses ratio
@@ -156,4 +148,4 @@ Main tasks:
 ## T
 ### Technology Committee
 
-*[← back to value](../technology/#3-choice-of-technology-should-be-aligned-with-technology-table-link-tba)*
+*[← back to value](../technology/#3-choice-of-technology-should-be-aligned-with-technology-tablestack)*

@@ -12,20 +12,20 @@ Content under construction: the set of values is not accepted and not convenient
 
 ### 1. We care about API cleanness.
 
-* All <abbr data-toggle="tooltip" title="Service is an application, but not all applications are services. For example, a frontend is not a service.">business services</abbr> exposes their APIs on the Developer Portal. *[<i class="fa fa-lock"></i> internal ](https://developers.apigee.lmru.tech/)*
+* We expose services to other teams through APIs on the Developer Portal. *[<i class="fa fa-lock"></i> internal ](https://developers.apigee.lmru.tech/)*
 * We are following [API Design Principles](../../api/). Non compliant APIs should declared as a technical debt and modified.
-* We use REST API for synchronous and all our [API level 2](https://dsugrobov.github.io/technology/api/sync/) mature.
+* We use REST API for synchronous and all our [API level 2](../../api/sync/) mature.
 * We use AMQP or Kafka for asynchronous communication.
-* Services do not provide a client library. The API and its data model are expressed as REST and JSON <abbr  data-toggle="tooltip" title="Shared internal dependencies lead to a large-scale complexity over time.">[?]</abbr>.
+* <abbr data-toggle="tooltip" title="Service is an application, but not all applications are services. For example, a frontend is not a service.">Services</abbr> do not provide a client library. The API and its data model are expressed as REST and JSON <abbr  data-toggle="tooltip" title="Shared internal dependencies lead to a large-scale complexity over time.">[?]</abbr>.
 
 #### Practices & rituals: 
 *[30% rule](../glossary/#30-rule)*
 
-{{< alert color="warning" title="Antipattern" >}}GraphQL or GRPC endpoint exposed for external usage.{{< /alert >}}
+{{< alert color="warning" title="Antipattern" >}}GraphQL or GRPC endpoint exposed for external usage. <sup>[[See Technology Value]](../technology/#3-choice-of-technology-should-be-aligned-with-technology-tablestack)</sup>{{< /alert >}}
 
 <hr>
 
-### 2. We use modular architecture.
+### 2. We use modular architecture and avoid tight coupling between products.
 
 * <abbr data-toggle="tooltip" title="When we are talking about “Modular” or “Microservices” architecture it means set of architecture patterns.">Modules</abbr> are isolated and loosely coupled.
 * Modules have single responsibility. 

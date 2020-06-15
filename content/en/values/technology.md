@@ -27,7 +27,7 @@ Content under construction: the set of values is not accepted and not convenient
 ### 2. We are automate everything as much as possible.
 
 * We prefer automated tests rather than manual testing.
-* Build & Deploy should be done automatically or by manual click on CI tool.
+* Build & Deploy should be done by CI tool.
 
 #### Practices & rituals: 
 *[DevOps](../glossary/#devops)*
@@ -39,6 +39,7 @@ Content under construction: the set of values is not accepted and not convenient
 ### 3. Choice of technology should be aligned with [Technology Table](../../stack/).
 
 * Table is kept up-to-date by technology committee.
+* All movements in the table are  logged in decision records table.
 * We support iniciatives to try new technology or approach after notice of technology committee.
 
 #### Practices & rituals: 
@@ -48,9 +49,9 @@ Content under construction: the set of values is not accepted and not convenient
 
 <hr>
 
-### 4. Front applications follows [design system](https://zeroheight.com/1165fb04f/).
+### 4. Front applications follow [design system](https://zeroheight.com/1165fb04f/).
 
-* It is recommended to use starters provided by design team.
+* It is recommended to use components provided by design team.
 * All business settings are configurable through UI.
 
 {{< alert color="warning" title="Antipattern" >}}Built in store application uses Comic Sans.{{< /alert >}}
@@ -61,13 +62,13 @@ Content under construction: the set of values is not accepted and not convenient
 
 * When possible applications runs inside containers using container orchestrator.
 * We prefer stateless applications
-* Applications exposes data for analysis and monitoring.
+* Applications exposes telemetry for analysis and monitoring.
 * Requests are traceable.
 * Applications can be scaled horizontally.
 * Applications and databases are replicated and can be sharded.
 * Configuration of applications should be done in environment and not locked in application.
 * System classified for security risks and using appropriate mechanisms.
-* Services provides SLA for  endpoints.
+* Services provides <abbr data-toggle="tooltip" title="Service Level Objective is a goal that service provider wants to reach. Google it for details.">SLO</abbr> and controls them.
 
 #### Practices & rituals: 
 distributed tracing, RBAC, encryption, valet
@@ -79,10 +80,10 @@ distributed tracing, RBAC, encryption, valet
 ### 6. We build robust applications and infrastructure.
 
 * We response accurately and correctly handle wrong inputs.
-* We handle partial outages
-* Our key systems are covered with master-master replication.
+* We handle partial outages.
+* Infrastructure for key systems allows to have master-master replication.
 
 #### Practices & rituals: 
-disaster recovery, cache answers, degraded mode, retry, timeout, circuit breaker, tolerant reader
+cache answers, degraded mode, retry, timeout, circuit breaker, tolerant reader
 
 {{< alert color="warning" title="Antipattern" >}}Client can't order because email system is broken.{{< /alert >}}

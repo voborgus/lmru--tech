@@ -10,14 +10,13 @@ description: People are the heart of the company.
 Content under construction: the set of values is not accepted and not convenient for use yet. <br /><br />
 {{% /pageinfo %}}
 
-### 1. Common goals are more important than individual.
+### 1. We value common success on the same level with personal.
 
-* Pull issues from backlog rather than be pushed by someone. 
-* It is good to share practices between teams. 
-* We have mentors. We can ask anyone to be mentor. 
+* We are open to colleagues and sharing personal and team experience. 
+* Everyone can be a mentor and we can ask anyone to be a mentor. 
 
 #### Practices & rituals: 
-*[communities](../glossary/#communities)*, *[onboarding check-list with a required mentor](../glossary/#onboarding-check-list)*
+*[communities](../glossary/#communities)*
 
 {{< alert color="warning" title="Antipattern" >}}Overfulfill your own tasks while your colleague can not finish in time and you were able to help.{{< /alert >}}
 
@@ -25,10 +24,10 @@ Content under construction: the set of values is not accepted and not convenient
 
 ### 2. We accept mistakes and learn from them.
 
-* We must offer and test fast our ideas, even the craziest.
+* We offer and test fast our ideas, even the craziest.
 * We are not afraid to take the first step, fall into the dirt, rise, shake off, write a post mortem with clean hands, and go the other way. 
-* Mistakes make us stronger only if we have post-mortem and avoid repetition. 
-* Mistakes term do not include intentional violation of the rules or laziness. 
+* We work on our mistakes to prevent their in the future.
+* Mistakes term do not include intentional violation of the rules. 
 
 #### Practices & rituals: 
 *[fail fast rule](../glossary/#fail-fast-rule)*, *[post-mortems](../glossary/#post-mortem)*
@@ -40,10 +39,11 @@ Content under construction: the set of values is not accepted and not convenient
 * We respect team rules. 
 * We prefer non-formal style of communication to officialism.
 * We know goals of every meeting and record all decisions.
+* We prepare for meetings before the meeting. Meetings are not the only way to make a decision.
 * We may work remotely. 
 
 #### Practices & rituals: 
-*[online meetings requirement](../glossary/#online-meetings-requirement)*, *[availability of the tools](../glossary/#availability-of-the-tools)*, *[daily meetings](../glossary/#daily-meeting)*, *[planning](../glossary/#planning-of-the-sprint)*, *[retrospectives](../glossary/#retrospective)*, *[required agenda in invitation](../glossary/#required-agenda-in-invitation)*, *[after event message](../glossary/#after-event-message)*
+*[remote ready](../glossary/#remote-ready)*, *[availability of the tools](../glossary/#availability-of-the-tools)*, *[daily meetings](../glossary/#daily-meeting)*, *[planning](../glossary/#planning)*, *[retrospectives](../glossary/#retrospective)*, *[required agenda in invitation](../glossary/#required-agenda-in-invitation)*
 
 {{< alert color="warning" title="Antipattern" >}}1 hour meeting with 30 participants without agenda and written conclusions.{{< /alert >}}
 
@@ -60,7 +60,7 @@ Content under construction: the set of values is not accepted and not convenient
 ### 5. Your job is safe, your role is not.
 
 * We support new skills development.
-* Changing of role and team and staying in a company is better than leave.
+* You can change the role or team in the company. We are open to it.
 
 #### Practices & rituals:
 *[internal rotation](../glossary/#internal-rotation)*

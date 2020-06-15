@@ -64,7 +64,7 @@ title = "Leroy Merlin Tech"
 {{< blocks/section color="light">}}
 
 {{% blocks/feature icon="fab fa-github" title="Контрибьюции приветствуются" %}}
-Этот сайт полностью на ридмиках в GitHub Pages. <br /> Отправь [Пулл Реквест](https://github.com/adeo/lmru--tech/pulls) для изменения контента.
+Этот сайт написан полностью на маркдауне. <br /> Отправь [Пулл Реквест](https://github.com/adeo/lmru--tech/pulls) для изменения контента.
 {{% /blocks/feature %}}
 
 
