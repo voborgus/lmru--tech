@@ -1,6 +1,6 @@
 
 ---
-title: "Leroy Merlin Technology Values"
+title: "Leroy Merlin Engineering Values"
 linkTitle: "Our Values"
 weight: 20
 type: docs

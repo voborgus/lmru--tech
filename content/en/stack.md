@@ -28,7 +28,7 @@ To make the process of choosing technology more clear and simple we going to hav
 
 ### Technology stack life cycle
 We have the practice to update the technology table. During Technology Committee we decide which technology needs to start research or try in production systems. We confirm change technologies for the `best choice` section.
-s
+
 #### Decisions records
 <iframe width="100%" height="200" style="border: 0" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTeRBTa00sImYA3UEP1nepoMnhvTuOzj688vDl4940l5U6EIQIkGpYB-ere2EKs4z6B9CfETZjVeyCd/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
 
