@@ -15,9 +15,7 @@ To emphasize agreement and active involvement in the process, we came up with a 
 **At the bottom of this page, you find the list of supporters of values.
 All signatories participated in the maintenance of values and fully agree with all listed points.**
 
-```
 Open the pull request and add your name only if you share the values described on the portal.
-```
 
 ## Contributing
 
