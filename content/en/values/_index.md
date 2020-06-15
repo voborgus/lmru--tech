@@ -14,7 +14,6 @@ menu:
 Content under construction: the set of values is not accepted and not convenient for use yet. <br /><br />
 {{% /pageinfo %}}
 
-
 We as IT want to <b>build Retailer — technology company-platform</b>.
 
 Our mission is to bring autonomy to product teams, support it with tools and governance to increase productivity and ensure the required level of quality.
