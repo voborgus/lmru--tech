@@ -2,6 +2,7 @@
 title: "Glossary"
 weight: 40
 type: docs
+toc_hide: true
 description: Practices and rituals supporting values.
 ---
 ## \#

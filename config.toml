@@ -113,7 +113,7 @@ github_repo = "https://github.com/adeo/lmru--tech"
 algolia_docsearch = false
 
 # Enable Lunr.js offline search
-offlineSearch = true
+offlineSearch = false
 
 # User interface configuration
 [params.ui]

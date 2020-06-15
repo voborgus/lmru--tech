@@ -1,0 +1,43 @@
+
+
+# UI strings. Buttons and similar.
+
+[ui_pager_prev]
+other = "Назад"
+
+[ui_pager_next]
+other = "Вперёд"
+
+[ui_read_more]
+other = "Подробнее"
+
+[ui_search]
+other = "Поиск…"
+
+# Used in sentences such as "Posted in News"
+[ui_in]
+other = "в"
+
+# Footer text
+[footer_all_rights_reserved]
+other = "Все права защищены"
+
+[footer_privacy_policy]
+other = "Политика Конфиденциальности"
+
+
+# Post (blog, articles etc.)
+[post_byline_by]
+other = "От"
+[post_created]
+other = "Создано"
+[post_last_mod]
+other = "Последнее изменение"
+[post_edit_this]
+other = "Редактировать страницу"
+[post_create_issue]
+other = "Предложить улучшение"
+[post_create_project_issue]
+other = "Создать тикет"
+[post_posts_in]
+other = "Страниц в"
