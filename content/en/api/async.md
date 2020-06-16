@@ -45,7 +45,7 @@ There are two technologies are supported in the company for cross-product async 
     <p><i class="fa fa-check"></i></p>
     <p><i class="fa fa-check"></i></p>
     <p><abbr data-toggle="tooltip" title="Messages are pushed from RabbitMQ to the consumer.">Push</abbr></p>
-    <p>Vertical</p>
+    <p>Vertical <sup><abbr data-toggle="tooltip" title="Yes, all our RabbitMQ clusters scalled horizontally. However, rabbit uses a lot of resources for coordination and further scaling will be more efficient through increasing resources on nodes.">but why?</abbr></sup></p>
     <p>Scale the number of consumers</p>
   </div>
 </div>
@@ -96,11 +96,11 @@ Use *camelCase* for all fields.
   * `canonical` a topic for the publication <abbr data-toggle="tooltip" title="Agnostic for business processes & consumption and minimalistic APIs created for multiple consumers.">canonical</abbr> data
 * `int/ext` *int* topic is used internally, *ext* topic is used to publish on the Internet
 * `domain` <abbr data-toggle="tooltip" title="products, services, stocks, prices, offers, orders, customers, partners, company, locations, finance or technical">canonical domain</abbr>
-* `object` data transmitted through this topic
+* `object` data transmitted through this topic <sup><abbr data-toggle="tooltip" title="fulfillmentTask, shipment, paymentTask">examples</abbr></sup>
 * `version` version of the topic
 
 {{% alert color="success" title="Example" %}}
-`doosdoaijdla-asda-dasd-asd-asd`
+`crm-canonical-int-customers-organization-v9`
 {{% /alert %}}
 
 ### RabbitMQ Exchange
@@ -121,7 +121,7 @@ Use *camelCase* for all fields.
 * `version` version of the exchange
 
 {{% alert color="success" title="Example" %}}
-`doosdoaijdla-asda-dasd-asd-asd`
+`paymentGateway-tx-x-orders-paymentTask-v1`
 {{% /alert %}}
 
 ### RabbitMQ Queue
@@ -143,5 +143,5 @@ Use *camelCase* for all fields.
 * `version` version of the queue
 
 {{% alert color="success" title="Example" %}}
-`doosdoaijdla-asda-dasd-asd-asd`
+`solution-tx-q-orders-paymentTask-created-v2`
 {{% /alert %}}
