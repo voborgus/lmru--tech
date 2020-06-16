@@ -12,23 +12,18 @@ menu:
 Мы не используем подход с моностеком. Благодаря обширному стеку технологий мы выбираем подходящий инструмент для конкретной задачи, не застываем в прошлом, наращиваем экспертизу и не привязываемся к определённому вендору или технологии.
 
 ### Что влияет на выбор
-
 * Текущий и потенциальный рынок специалистов
 * Зрелость технологии
-* Тип компонента (бизнес логика, система, миддл)
-* Архитектурные паттерны
-* Паттерны разработки
+* Сценарий использования (бизнес логика, система, миддл)
 * Специфика использования (характер нагрузки, параметры безопасности, и т.д.)
 * Политика лицензирования
 
-
-### Жизненный цикл стека
-Мы периодически обновляем таблицу технологий на собраниях под названием «Technology Committee», выбираем технологии, которые будем пробовать. Если всё идёт пучком, то технология рано или поздно перейдёт в колонку `best choice`.
-
-### История изменений
-<iframe width="100%" height="300" style="border: 0" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTeRBTa00sImYA3UEP1nepoMnhvTuOzj688vDl4940l5U6EIQIkGpYB-ere2EKs4z6B9CfETZjVeyCd/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+### Как начать использовать новую технологию
+Каждая технология должна пройти жизненый цикл описанный в глоссарии в разделе [Технологический Комитет](../values/glossary/#technology-committee).
 
 ### Таблица технологий
+Это уже вторая попытка отобразить тех. стек, который мы используем — раньше мы использовали Тех. Радар. Однако, он был не слишком пригоден для реального использования.
+
 Для облегчения выбора предлагается таблица, в которой есть колонки `area` — сфера применения и `use case` — как именно используем. Например, выставляем CRUD API, выбираем [BFF](https://developer.ibm.com/technologies/microservices/patterns/create-backend-for-frontend-application-architecture/) или запиливаем оркестратор. Для каждого кейса использования подобрана технология – язык, фреймворк или продукт, и наше отношение к ней: 
 
 * `best choice` — круто, надо брать
@@ -36,4 +31,69 @@ menu:
 * `research` – пробуем играться, пока не понятно
 * `hold` — пробовали, наигрались, хватит
 
-<iframe width="100%" height="800" style="border: 0" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTu7RaWazV0jjyiGpdBzIFo-QlCrYRUi4gPOA07NfT3sWzabiZm7Svy5NbQ7erwOJGaMrz1hVTSZx6d/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+|Area                                     |Patterns/cases                  |Research (Non production)      |Trial (Production)                                                         |Best choice for new components (Production)             |Hold (Legacy in production and unaccepted or ancient technologies)|
+|-----------------------------------------|--------------------------------|-------------------------------|---------------------------------------------------------------------------|--------------------------------------------------------|------------------------------------------------------------------|
+|Machine Learning                         |Libraries                       |Pytorch                        |                                                                           |LightGBM  Catboost  Scikit-learn  Matplotlib  Pandas  Plotly  OpenCV  TensorFlow (Keras)  Seaborn|                                                                  |
+|                                         |MLOps                           |DVC  Kubeflow  MLFlow          |                                                                           |                                                        |                                                                  |
+|                                         |Tools                           |                               |                                                                           |Jupyter Notebook                                        |JupyterHub                                                        |
+|                                         |Analysis                        |                               |                                                                           |Python 3                                                |                                                                  |
+|Data                                     |Data Platform backend﻿          |                               |                                                                           |GO  JAVA  Django                                        |                                                                  |
+|                                         |Data Platform frontend          |                               |                                                                           |Next.js                                                 |                                                                  |
+|                                         |Data Product backend            |                               |                                                                           |Flask  AsyncIO  Python                                  |                                                                  |
+|                                         |Data Product frontend           |                               |                                                                           |React                                                   |                                                                  |
+|                                         |Data Visualization  (BI tools)  |                               |                                                                           |Power BI  Tableau                                       |QlikView  SQL Server Reporting Services  SAP BusinessObjects      |
+|                                         |Data Processing                 |                               |Spark  Scala                                                               |                                                        |                                                                  |
+|                                         |DWH                             |                               |                                                                           |Greenplum                                               |                                                                  |
+|                                         |Dataload                        |                               |                                                                           |Kafka  Yandex Object Storage S3                         |Hadoop  MinIO                                                     |
+|                                         |ETL  Task scheduler             |                               |                                                                           |NiFi  ESB Stambya                                       |Talend                                                            |
+|                                         |                                |Airflow                        |                                                                           |                                                        |                                                                  |
+|Business applications backend            |CRUD                            |Platformeco                    |Springboot  GO  NEST JS  Typescript  Python                                |NodeJS  Kotlin  Java  Typescript                        |C# ASP.Net                                                        |
+|                                         |BFF                             |                               |NodeJS  Java                                                               |Platformeco                                             |Python                                                            |
+|                                         |SAGA                            |                               |NodeJS                                                                     |Kotlin  Java                                            |                                                                  |
+|                                         |Complex BL, Process orchestration|                               |Kotlin                                                                     |Camunda                                                 |                                                                  |
+|                                         |Data storage                    |Ignite  Tarantool              |Maria DB  Cassandra  Redis                                                 |MongoDB  ClickHouse  PostgeSQL  S3                      |Oracle  MS SQL  FTPS /SFTP  My SQL                                |
+|Frontends                                |                                |WASM                           |TypeScript  React  Redux  Vue  Svelte  WebComponents  Angular              |JavaScript                                              |php                                                               |
+|QA                                       |                                |                               |                                                                           |                                                        |                                                                  |
+|API management                           |Protocols & integration agreements  HTTP2  HTTP3  GraphQL|                               |GRPC                                                                       |REST API &#124; KeepAlive  HTTP RPC (Experience API)  WebSocket|SOAP  File Transfer  DB link  Batch transfer  FTPS /SFTP          |
+|                                         |Gatways & mediation  KONG  ISTIO|                               |                                                                           |APIGEE                                                  |ESB  File transfer  Direct Integration                            |
+|                                         |Messaging & Streaming - Async   |Pulsar  NATS/streaming         |                                                                           |AMQP (RabbitMQ)  Kafka                                  |JMS  ActiveMQ                                                     |
+|Observability                            |Monitoring                      |                               |Prometheus                                                                 |Prometheus  Zabbix  Dynatrace                           |Pingdom  ELK                                                      |
+|                                         |Alerting                        |Statuspage                     |                                                                           |Opsgenie  Slack                                         |Telegram  Grafana                                                 |
+|                                         |Tracing  Visualize              |Open Telemetry                 |                                                                           |Dynatrace  Zipkin  Jaeger                               |                                                                  |
+|                                         |                                |Statuspage  Clickhouse         |Platformeco  Kibana                                                        |Power BI  Grafana  Dynatrace                            |Zabbix  Kibana                                                    |
+|CICD                                     |CI tool                         |Github Actions                 |Jenkins                                                                    |Jenkins                                                 |Gitlab CI/CD                                                      |
+|                                         |Code storage                    |                               |Gitlab  Github                                                             |Github                                                  |Gitlab                                                            |
+|                                         |Artifacts Storage               |                               |                                                                           |Artifactory                                             |Nexus                                                             |
+|                                         |Code Quality Analisys           |                               |                                                                           |Sonarqube                                               |                                                                  |
+|                                         |Valnurabilites Scanning         |Github Valnuarabilities scanner|Jfrog Xray  Checkmarx                                                      |                                                        |                                                                  |
+|                                         |CD tool/framework               |                               |                                                                           |Ansible  Helm                                           |                                                                  |
+|                                         |Containerization                |                               |                                                                           |Kubernetes  Docker                                      |Openshift                                                         |
+|                                         |Secrets Storage                 |                               |                                                                           |Hashicorp Vault                                         |Git                                                               |
+|                                         |Logging                         |Grafana Loki                   |                                                                           |Opendistro (ELK)                                        |                                                                  |
+|                                         |Monitoring                      |                               |                                                                           |Prometheus                                              |Zabbix                                                            |
+|Infrastructure                           |Infrastructure as code          |Saltstack  Puppet              |Terraform                                                                  |                                                        |                                                                  |
+|                                         |Cloud                           |                               |                                                                           |                                                        |                                                                  |
+|                                         |File Storage\Data Storage       |                               |                                                                           |                                                        |                                                                  |
+|                                         |Database                        |Victoriametrics                |PostgreSQL  MongoDB  Elasticsearch  Redis  MSsql  ClickHouse  Prometeus  Cassandra|                                                        |Oracle                                                            |
+|                                         |PaaS databases and PaaS message brokers|Apache Pulsar  NATS/streaming  |RabbitMQ  Kafka                                                            |                                                        |                                                                  |
+|                                         |Load Balancer                   |Nginx  HA Proxy                |Citrix NetScaler  Kemp                                                     |                                                        |                                                                  |
+|                                         |Virtualization                  |OpenStack                      |VMware                                                                     |                                                        |                                                                  |
+|                                         |Server OS                       |                               |Windows server 2019  Centos  7  Ubuntu  18.04                              |                                                        |                                                                  |
+|                                         |Mailing                         |                               |MS exchange  Office 365                                                    |                                                        |                                                                  |
+|                                         |Patch management                |                               |SCCM                                                                       |                                                        |                                                                  |
+|Licensing                                |                                |                               |                                                                           |OpenSource                                              |                                                                  |
+
+
+### Другие инструменты
+
+| Область | Инструмент |
+| ------ | ------ |
+| Мессенджер для IT коммуникаций | [`Slack`](https://adeo-tech-community.slack.com), [`Telegram`](https://telegram.org/) |
+| Мессенджер для корпоративных коммуникаций | [`Workplace`](https://workplace.facebook.com) |
+| Деловая переписка | [`Email`](https://owa.leroymerlin.ru/) |
+| Социальная сеть | [`Workplace`](https://workplace.facebook.com) |
+| База знаний | [`Confluence`](https://confluence.lmru.tech), [`GitHub`](https://github.com/adeo/) |
+| Трекинг задач | [`Jira`](https://jira.lmru.tech) |
+| Видеоконференции | [`Zoom`](https://leroymerlin.zoom.us) |
+| Работа с инцидентами | [`BPM Online`](http://itsm.leroymerlin.ru/) |
+| Бесконечная доска | [`Miro`](https://miro.com/) |

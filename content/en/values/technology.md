@@ -43,7 +43,7 @@ Content under construction: the set of values is not accepted and not convenient
 * We support iniciatives to try new technology or approach after notice of technology committee.
 
 #### Practices & rituals: 
-*[Technology Committee](../glossary/#)*
+*[Technology Committee](../glossary/#technology-committee)*
 
 {{< alert color="warning" title="Antipattern" >}}Manager orders an external company to write a non-maintainable black-box application on 1C.{{< /alert >}}
 
