@@ -24,7 +24,7 @@ API Management is the core strategy to build platform business model & support p
   <div class="mb-4 h1">
     <i class="fas fa-exchange-alt"></i>
   </div>
-  <h4 class="h3">Asynchronous</h4>
+  <h4 class="h3"><a href="async/">Asynchronous<br />Design Principles</a></h4>
   <p class="mb-0"></p><p>A sender application sends a message to a receiver and continues its processing before receiving a response. In other words, the sender application does not depend on the receiver to complete its processing.</p>
 </div>
 </div>

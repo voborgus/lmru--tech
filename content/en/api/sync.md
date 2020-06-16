@@ -1,6 +1,6 @@
 ---
-title: "Synchronous API Design Principles"
-weight: 30
+title: "Synchronous Design Principles"
+weight: 10
 type: docs
 ---
 
@@ -22,7 +22,7 @@ This level also requires us to use correct HTTP methods for operating on the res
 {{% /blocks/feature %}}
 {{< /blocks/section >}}
 
-Our strategy is to **achieve Level 2 on all our APIs**. 
+Our strategy is to **achieve Level 2 on all our <abbr data-toggle="tooltip" title="Agnostic for business processes & consumption and minimalistic APIs created for multiple consumers.">canonical</abbr> APIs**. 
 
 ## URI Path Design
 ```
