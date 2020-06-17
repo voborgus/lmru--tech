@@ -145,8 +145,10 @@ no = 'Sorry to hear that. Please <a href="https://github.com/USERNAME/REPOSITORY
 enable = false
 
 [params.links]
-
-# Developer relevant links. These will show up on right side of footer and in the community page if you have one.
+[[params.links.user]]
+	name = "Licensed under a Creative Commons Attribution-ShareAlike 4.0 International License"
+	url = "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+	icon = "fab fa-creative-commons-sa"
 [[params.links.developer]]
 	name = "GitHub"
 	url = "https://github.com/adeo"
@@ -154,7 +156,7 @@ enable = false
         desc = "Development takes place here!"
 [[params.links.developer]]
 	name = "Slack"
-	url = "adeo-tech-community.slack.com"
+	url = "https://adeo-tech-community.slack.com"
 	icon = "fab fa-slack"
         desc = "Corporate Slack account"
 [[params.links.developer]]
@@ -162,4 +164,3 @@ enable = false
 	url = "https://hh.ru/search/vacancy?text=%D0%9B%D0%B5%D1%80%D1%83%D0%B0%20%D0%9C%D0%B5%D1%80%D0%BB%D0%B5%D0%BD&search_field=company_name&specialization=1"
 	icon = "fa fa-building"
         desc = "Check the latest Leroy Merlin vacancies"
-
