@@ -30,7 +30,14 @@ Our goal is to describe and align the culture with all colleagues.
 
 In case of any questions, contact with Dmitrii Sugrobov.
 
+## Edit the content using GitHub UI
+
+It is possible to change the content directly using GitHub UI edit function. 
+After the merge to the `master` branch the content will be automatically updated on the site.
+
 ## Running the website locally
+
+First, you should have [Hugo](https://gohugo.io/getting-started/installing/) installed.
 
 The following will give you a project that is set up and ready to use (don't forget to use `--recurse-submodules` or you won't pull down some of the code you need to generate a working site). The `hugo server` command builds and serves the site. If you just want to build the site, run `hugo` instead.
 
