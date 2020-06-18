@@ -39,7 +39,7 @@ The project should have a list of members for the project. Each member should ha
 * Company — LLC "Leroy Merlin Vostok"
 * Contact email – pavel.griboedov@leroymerlin.ru
 
-#### Setting the correct information in Git
+#### Setting correct information in Git
 It is required to send proper meta information in all commits. 
 This information used to determine an author of the code.
 
@@ -85,8 +85,8 @@ It lets people do almost anything they want with your project, except distributi
 ##### Copyright licenses
 This type of license allows everyone to distribute the code together with your code in the closed proprietary products.
 
-* [BSD](https://opensource.org/licenses/BSD-3-Clause) — there is two general editions.
-The original license requires advertisement of the initial project on all products uses the code with the line like
+* BSD — there is two general editions.
+The [original](https://opensource.org/licenses/BSD-3-Clause) license requires advertisement of the initial project on all products uses the code with the line like
 «This product includes software developed by the `organization`».
 [Modified](https://opensource.org/licenses/bsd-license.php) version not includes this requirement. 
 All versions are going under the same name and to avoid collision **we do not recommend** to use this licenses.
