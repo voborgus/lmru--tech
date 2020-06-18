@@ -13,15 +13,6 @@ Hello and welcome! This is home for Leroy Merlin Russia technology culture. All 
 
 The main reason for this site is to have all common technical agreements in a written form in the central place [tech.leroymerlin.ru](https://tech.leroymerlin.ru/).
 
-## Signing process
-
-To emphasize agreement and active involvement in the process, we came up with a signature process.
-
-**At the bottom of this page, you find the list of supporters of values.
-All signatories participated in the maintenance of values and fully agree with all listed points.**
-
-Open the pull request and add your name only if you share the values described on the portal.
-
 ## Contributing
 
 All content crafted manually by the group of enthusiasts.
@@ -54,7 +45,3 @@ hugo server
 
 ## License
 This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License][cc-by-sa].
-
-## The list of supporters
-
-* *[Replace this line with your name]*
