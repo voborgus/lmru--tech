@@ -36,23 +36,23 @@ https:// api.leroymerlin.ru / domain / application / v1 / products?siteId=12&sta
 * Название ресурса всегда в множественном числе.
 * Если ресурс относится к другому, используй вложенность.
 {{% alert color="success" %}}
-<code>/customers/{id}/addresses</code> все адреса конкретного кастомера
+`/customers/{id}/addresses` все адреса конкретного кастомера
 {{% /alert %}}
 * Максимальная вложенность — 1.
 {{% alert color="danger" %}}
-<code>/suppliers/{id}/products/{id}/media/{id}</code> слишком глубоко
+`/suppliers/{id}/products/{id}/media/{id}` слишком глубоко
 {{% /alert %}}
 * Допускается использование единственного числа там, где других таких же предметов быть не может
 {{% alert color="success" %}}
-<code>/delivery/v1/products</code> не бывает иных обьектов `delivery`
+`/delivery/v1/products` не бывает иных обьектов `delivery`
 {{% /alert %}}
 
 {{% alert color="success" title="Хорошие примеры" %}}
-<code>/customers</code> все кастомеры <br />
-<code>/customers/{id}/addresses</code> все адреса конкретного кастомера <br />
-<code>/products?supplierId={supplierId}</code> список продуктов по поставщику <br />
-<code>/products/{id}</code> детали определённого продукта <br />
-<code>/products/{id}/media</code> список медиа одного продукта
+`/customers` все кастомеры <br />
+`/customers/{id}/addresses` все адреса конкретного кастомера <br />
+`/products?supplierId={supplierId}` список продуктов по поставщику <br />
+`/products/{id}` детали определённого продукта <br />
+`/products/{id}/media` список медиа одного продукта
 {{% /alert %}}
 
 #### Умеренная гранулярность.
@@ -74,13 +74,13 @@ https:// api.leroymerlin.ru / domain / application / v1 / products?siteId=12&sta
 В REST API качестве ключа по возможности следует использовать натуральные ключи, а также стоит избегать использования первичных ключей БД, так как при смене базы данных, у нас могут быть проблемы с интеграцией, да и вообще — это не секьюрно.
 
 {{% alert color="success" title="Хорошие примеры" %}}
-<code>/some-resource?tag=green</code> натуральный ключ “green” понятен пользователям<br />
-<code>/customer/0012345</code> кастомер ID - суррогатный ключ для этого API
+`/some-resource?tag=green` натуральный ключ “green” понятен пользователям<br />
+`/customer/0012345` кастомер ID - суррогатный ключ для этого API
 {{% /alert %}}
 
 {{% alert color="danger" title="Плохие примеры" %}}
-<code>/some-resource?tag=1</code> вернуть всё с тегом «green» через его id «1»<br />
-<code>/customer/23dde7-e89b-12d3-a456-4265</code> кастомер ID это UUID, сгенерированный БД
+`/some-resource?tag=1` вернуть всё с тегом «green» через его id «1»<br />
+`/customer/23dde7-e89b-12d3-a456-4265` кастомер ID это UUID, сгенерированный БД
 {{% /alert %}}
 
 ## HTTP-методы
@@ -92,10 +92,12 @@ https:// api.leroymerlin.ru / domain / application / v1 / products?siteId=12&sta
 * `DELETE` удалить
 * `OPTIONS` вернуть все HTTP-методы, доступные для эндпоинта
 
-{{% alert color="danger" title="Некорректное поведение" %}}
-* использование везде только POST
-* использование кастомных HTTP методов
-* использоваие паттерна `/collections/{resource}:{action}`
+### Когда что-то не подходит
+* используй POST метод
+* используй action глаголы
+* воспользуйся паттерном `/collections/{resource}:{action}`
+{{% alert color="success" title="Пример" %}}
+`POST /users/123:subscribe`
 {{% /alert %}}
 
 ## URL параметры запросов
@@ -215,8 +217,7 @@ ADEO-BU-CODE: 10
 
 * `YYYY-MM` 2020-06
 * `YYYYMMDD` 20200602
-* `YYYY-MM-DDThh:mm:ss` 2020-06-02T15:22:00
-* `YYYY-MM-DDThh:mm:ss±hh` 2020-06-02T15:22:00+03:00
+* `YYYY-MM-DDThh:mm:ss±hh` 2020-06-02T15:22:00+00:00
 
 #### ISO 4217 — Деньги
 
