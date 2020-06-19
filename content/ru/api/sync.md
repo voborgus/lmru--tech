@@ -34,7 +34,10 @@ https:// api.leroymerlin.ru / domain / application / v1 / products?siteId=12&sta
 
 * У каждого ресурса свой эндпоинт.
 * Название ресурса всегда в множественном числе.
-* Если ресурс относится к другому, используй вложенноссть.
+* Если ресурс относится к другому, используй вложенность.
+{{% alert color="success" %}}
+<code>/customers/{id}/addresses</code> все адреса конкретного кастомера
+{{% /alert %}}
 * Максимальная вложенность — 1.
 {{% alert color="danger" %}}
 <code>/suppliers/{id}/products/{id}/media/{id}</code> слишком глубоко

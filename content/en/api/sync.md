@@ -37,6 +37,9 @@ https:// api.leroymerlin.ru / domain / application / v1 / products?siteId=1234&s
 * Each resource have their own endpoint. 
 * Resource name always in the plural.
 * If a resource is related to another resource, use sub-resources.
+{{% alert color="success" %}}
+<code>/customers/{id}/addresses</code> all addresses of customer {id}
+{{% /alert %}}
 * Limit to 1 level of depth.
 {{% alert color="danger" %}}
 <code>/suppliers/{id}/products/{id}/media/{id}</code> too much inheritance
