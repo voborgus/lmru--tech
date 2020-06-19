@@ -126,17 +126,24 @@ They allow the response to be filtered according to certain criteria.
 {{% /alert %}}
 
 ## Pagination
-
-{{% alert color="success" title="Good examples" %}}
-`?page=2&perPage=100` paginate by page number <br />
-`?limit=25&before=ZDMyNz6yORI3OTLo` paginate by cursor<br />
-`?limit=25&offset=50` paginate through offset & limit<br />
-`?limit=25&since=1364849754` paginate with timelines
+* Paginate by page number.
+{{% alert color="success"%}}
+`?page=2&perPage=100` 
 {{% /alert %}}
-
-Time pagination is used to navigate through results data using Unix timestamps which point to specific times in a list of data.
-
-Don't store cursors. Cursors can quickly become invalid if items are added or deleted.
+* Paginate by cursor.
+{{% alert color="success"%}}
+`?limit=25&before=ZDMyNz6yORI3OTLo`
+{{% /alert %}}
+*Don't store cursors. Cursors can quickly become invalid if items are added or deleted.*
+* Paginate through offset & limit.
+{{% alert color="success"%}}
+`?limit=25&offset=50`
+{{% /alert %}}
+* Paginate with timelines.
+{{% alert color="success"%}}
+`?limit=25&since=1364849754`
+{{% /alert %}}
+*Time pagination is used to navigate through results data using Unix timestamps which point to specific times in a list of data.*
 
 ## Response: Conventions
 
