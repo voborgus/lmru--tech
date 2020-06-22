@@ -30,7 +30,7 @@ https:// api.leroymerlin.ru / domain / application / v1 / products?siteId=12&sta
                                           
 ```
 
-#### Используй `spinal-case` для URL-ов и `camelCase` для параметров и аттрибутов.
+#### Используй `kebab-case` для URL-ов и `camelCase` для параметров и аттрибутов.
 
 * У каждого ресурса свой эндпоинт.
 * Название ресурса всегда в множественном числе.
