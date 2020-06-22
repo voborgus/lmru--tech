@@ -165,10 +165,10 @@ They allow the response to be filtered according to certain criteria.
 * Every collection service should return a 206 status code if return only a part of the the collection in one call. 
 
 #### POST
-* Every secured service must return a 401 status code.
+* Every service used to create a resource must return a 201 status code. 
 
 #### PUT & PATCH:
-* Every service used to create a resource must return a 201 status code. 
+* Every service used to update a resource must return a 200 status code. 
 
 #### DELETE
 * Every service must return a 204 status code.
