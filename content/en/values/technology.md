@@ -14,7 +14,7 @@ Content under construction: the set of values is not accepted and not convenient
 ### 1. All codebase should be compliant with [InnerSource requirements](https://adeo.github.io/innersource/).
 
 * Codebase should be accessible for every employee and stored in GitHub.
-* Non compliant repositories should declared as a technical debt and changed.
+* Non compliant repositories should declared as a technical debt and should be fixed.
 * Code review is mandatory.
 
 #### Practices & rituals: 
