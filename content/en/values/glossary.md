@@ -7,7 +7,8 @@ description: Practices and rituals supporting values.
 ---
 ## \#
 ### 30% rule
-Each engineer may spend some part of his working time on R&D tasks or technical debt reduction.
+Each engineer may spend some part of his working time on R&D tasks, technical debt reduction or education. 
+The percentage it is approximate number and should be determined by technical leader together with the product team.
 
 *[← back to Architecture value](../architecture/#1-all-business-services-exposes-their-apis-on-the-developer-portal)* • *[or to Technology value](../technology/#1-all-codebase-should-be-compliant-with-innersource-requirementshttpsadeogithubioinnersource)*
 ## A

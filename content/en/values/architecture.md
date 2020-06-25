@@ -14,8 +14,6 @@ Content under construction: the set of values is not accepted and not convenient
 
 * We expose services to other teams through APIs on the Developer Portal. *[<i class="fa fa-lock"></i> internal ](https://developers.apigee.lmru.tech/)*
 * We are following [API Design Principles](../../api/). Non compliant APIs should declared as a technical debt and modified.
-* We use REST API for synchronous and all our [API level 2](../../api/sync/) mature.
-* We use AMQP or Kafka for asynchronous communication.
 * <abbr data-toggle="tooltip" title="Service is an application, but not all applications are services. For example, a frontend is not a service.">Services</abbr> do not provide a client library. The API and its data model are expressed as REST and JSON <abbr  data-toggle="tooltip" title="Shared internal dependencies lead to a large-scale complexity over time.">[?]</abbr>.
 
 #### Practices & rituals: 

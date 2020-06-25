@@ -13,7 +13,6 @@ Content under construction: the set of values is not accepted and not convenient
 ### 1. We value common success on the same level with personal.
 
 * We are open to colleagues and sharing personal and team experience. 
-* Everyone can be a mentor and we can ask anyone to be a mentor. 
 
 #### Practices & rituals: 
 *[communities](../glossary/#communities)*
@@ -27,7 +26,7 @@ Content under construction: the set of values is not accepted and not convenient
 * We offer and test fast our ideas, even the craziest.
 * We are not afraid to take the first step, fall into the dirt, rise, shake off, write a post mortem with clean hands, and go the other way. 
 * We work on our mistakes to prevent their in the future.
-* Mistakes term do not include intentional violation of the rules. 
+* *Mistakes* term does not include intentional violation of the rules. 
 
 #### Practices & rituals: 
 *[fail fast rule](../glossary/#fail-fast-rule)*, *[post-mortems](../glossary/#post-mortem)*
@@ -40,7 +39,7 @@ Content under construction: the set of values is not accepted and not convenient
 * We prefer non-formal style of communication to officialism.
 * We know goals of every meeting and record all decisions.
 * We prepare for meetings before the meeting. Meetings are not the only way to make a decision.
-* We may work remotely. 
+* We may work remotely and have flexible working hours. 
 
 #### Practices & rituals: 
 *[remote ready](../glossary/#remote-ready)*, *[availability of the tools](../glossary/#availability-of-the-tools)*, *[daily meetings](../glossary/#daily-meeting)*, *[planning](../glossary/#planning)*, *[retrospectives](../glossary/#retrospective)*, *[required agenda in invitation](../glossary/#required-agenda-in-invitation)*
@@ -59,8 +58,8 @@ Content under construction: the set of values is not accepted and not convenient
 
 ### 5. Your job is safe, your role is not.
 
-* We support new skills development.
-* You can change the role or team in the company. We are open to it.
+* We constantly develop our skills and can choose any direction.
+* We can ask colleagues to be a mentor.
 
 #### Practices & rituals:
 *[internal rotation](../glossary/#internal-rotation)*

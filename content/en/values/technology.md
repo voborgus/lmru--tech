@@ -51,8 +51,7 @@ Content under construction: the set of values is not accepted and not convenient
 
 ### 4. Front applications follow [design system](https://zeroheight.com/1165fb04f/).
 
-* It is recommended to use components provided by design team.
-* All business settings are configurable through UI.
+* All business settings should be configurable through UI.
 
 {{< alert color="warning" title="Antipattern" >}}Built in store application uses Comic Sans.{{< /alert >}}
 
@@ -64,11 +63,8 @@ Content under construction: the set of values is not accepted and not convenient
 * We prefer stateless applications
 * Applications exposes telemetry for analysis and monitoring.
 * Requests are traceable.
-* Applications can be scaled horizontally.
 * Applications and databases are replicated and can be sharded.
 * Configuration of applications should be done in environment and not locked in application.
-* System classified for security risks and using appropriate mechanisms.
-* Services provides <abbr data-toggle="tooltip" title="Service Level Objective is a goal that service provider wants to reach. Google it for details.">SLO</abbr> and controls them.
 
 #### Practices & rituals: 
 distributed tracing, RBAC, encryption, valet
@@ -80,6 +76,7 @@ distributed tracing, RBAC, encryption, valet
 ### 6. We build robust applications and infrastructure.
 
 * We response accurately and correctly handle wrong inputs.
+* Services provides <abbr data-toggle="tooltip" title="Service Level Objective is a goal that service provider wants to reach. Google it for details.">SLO</abbr> and controls them.
 * We handle partial outages.
 * Infrastructure for key systems allows to have master-master replication.
 
