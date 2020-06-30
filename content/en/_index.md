@@ -21,9 +21,9 @@ linkTitle = "Leroy Merlin Tech"
 {{< /blocks/cover >}}
 
 {{< blocks/lead color="primary" >}}
-**Leroy Merlin Russia is the leading Do It Yourself retail company.**
+**Leroy Merlin is becoming the habitant world platform.**
 
-We companion clients in creating safety and comfort at home in any way convenient for them, regardless of the world situation.
+We want to be at the top of people's minds when they are thinking about home improvement.
 
 {{< /blocks/lead >}}
 
