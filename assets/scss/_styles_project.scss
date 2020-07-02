@@ -40,3 +40,28 @@ abbr {
 ul.navbar-nav .dropdown {
     margin: 0 20px;
 }
+
+.popover {
+    z-index: 30;
+}
+
+.popover i {
+    float: right;
+    padding: 0.75rem 0.75rem;
+    cursor: pointer;
+}
+
+.glossary {
+    color: inherit;
+    padding: 0.2em 0.4em;
+    margin: 0;
+    word-break: normal;
+    background-color: rgba(0, 0, 0, 0.05);
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
+
+.glossary-text * {
+    display: inline !important;
+    padding-inline-start: 0 !important;
+}

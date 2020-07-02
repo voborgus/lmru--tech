@@ -17,11 +17,14 @@ Content under construction: the set of values is not accepted and not convenient
 * <abbr data-toggle="tooltip" title="Service is an application, but not all applications are services. For example, a frontend is not a service.">Services</abbr> do not provide a client library. The API and its data model are expressed as REST and JSON <abbr  data-toggle="tooltip" title="Shared internal dependencies lead to a large-scale complexity over time.">[?]</abbr>.
 
 #### Practices & rituals: 
-*[30% rule](../glossary/#30-rule)*
+{{< glossary title="30% rule" >}}
+Each engineer may spend some part of his working time on R&D tasks, technical debt reduction or education. 
+The percentage it is approximate number and should be determined by technical leader together with the product team.
+{{< /glossary >}}
 
 {{< alert color="warning" title="Antipattern" >}}GraphQL or GRPC endpoint exposed for external usage. <sup>[[See Technology Value]](../technology/#3-choice-of-technology-should-be-aligned-with-technology-tablestack)</sup>{{< /alert >}}
 
-<hr>
+---
 
 ### 2. We use modular architecture and avoid tight coupling between products.
 
@@ -31,11 +34,28 @@ Content under construction: the set of values is not accepted and not convenient
 * We periodically review important architecture and technical debt issues. 
 
 #### Practices & rituals: 
-*[high cohesion](../glossary/#high-cohesion)*, *[external configuration](../glossary/#external-configuration)*, *[orchestration/choreography](../glossary/#orchestration-choreography)*, *[Solution Architect Review](../glossary/#solution-architect-review)*
+{{< glossary title="Architecture Committee" >}}
+Enterprise & Solution architects meeting. Held by demand. Leader – CTO.
+
+Main tasks: 
+* solution architecture problem solving
+* escalation place for architecture gaps / technical debt grow
+* unblocking issues with technical debt
+* solution architecture consulting
+{{< /glossary >}}
+{{< glossary title="High Cohesion" source="https://stackoverflow.com/questions/10830135/what-is-high-cohesion-and-how-to-use-it-make-it" >}}
+High cohesion is when you have a class (or module) that does a well defined job. Low cohesion is when a class does a lot of jobs that don't have much in common.
+{{< /glossary >}}
+{{< glossary title="External Configuration" >}}
+A changeable configuration of applications should be stored in the environment.
+{{< /glossary >}}
+{{< glossary title="Orchestration / Choreography" >}}
+Microservices pattern for building of sequenses of execution (SAGAs). Short explanation [here](https://medium.com/ingeniouslysimple/choreography-vs-orchestration-a6f21cfaccae). Detailed [here](https://microservices.io/patterns/data/saga.html).
+{{< /glossary >}}
 
 {{< alert color="warning" title="Antipattern" >}}Microservices with hardcoded steps and multiple entries.{{< /alert >}}
 
-<hr>
+---
 
 ### 3. We develop only economically sustainable products.
 
@@ -43,6 +63,14 @@ Content under construction: the set of values is not accepted and not convenient
 * Every system have single mantainer team.
 
 #### Practices & rituals: 
-*[revenue / expenses ratio](../glossary/#revenue--expenses-ratio)*, *[KISS](../glossary/#kiss)*
+{{< glossary title="Revenue / Expenses Ratio" >}}
+An estimated amount of money earned by product or feature divided on spends on it should be calculated before work run.
+{{< /glossary >}}
+{{< glossary title="KISS" >}}
+Keep It Stupid Simple. Like Occam said, «[entities should not be multiplied without necessity](https://en.wikipedia.org/wiki/Occam%27s_razor)». Adding new levels of abstraction must have a strong reason. Adding new data entities or solution components also must have strong reason. Simplification is a King and we welcome the approach to describe it as an architecture debt and rework the complex areas to make it simple. The decision is made at the level of a technical and solution architect, in controversial situations we made decisions on the [Architecture Committee](#practices--rituals-1).
+{{< /glossary >}}
+{{< glossary title="DRY" >}}
+Do Not Repeat Yorself. Differently said, we are not develop multilple systems/modules/microservices/components with the same purpose.
+{{< /glossary >}}
 
 {{< alert color="warning" title="Antipattern" >}}We are using some technology only because of hype or fashion.{{< /alert >}}
