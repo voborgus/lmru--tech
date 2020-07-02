@@ -56,10 +56,10 @@ Also contains activities should be done in the future to prevent the repeat of t
 
 * We respect team rules. 
 * We prefer non-formal style of communication to officialism.
-* We know goals of every meeting and record all decisions.
+* We know goals of every meeting and record all decisions. 
+Each invitation to the meeting should have agenda.
 * We prepare for meetings before the meeting. 
-* Each invitation to the meeting should have agenda.
-* Meetings are not the only way to make a decision.
+Meetings are not the only way to make a decision.
 * We may work remotely and have flexible working hours. 
 
 #### Practices & rituals: 
