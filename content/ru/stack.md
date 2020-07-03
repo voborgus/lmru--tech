@@ -1,6 +1,6 @@
 ---
-title: "Стек технологий"
-linkTitle: "Стек технологий"
+title: "Стек Технологий"
+linkTitle: "Стек Технологий"
 
 type: docs
 weight: 25
