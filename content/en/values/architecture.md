@@ -2,7 +2,7 @@
 title: "Architecture"
 weight: 20
 type: docs
-description: We are building long-term systems and care about technical debt.
+description: Building long-term systems and fighting with technical debt.
 ---
 
 {{% pageinfo color="warning" %}}
@@ -13,7 +13,7 @@ Content under construction: the set of values is not accepted and not convenient
 ### 1. We care about API cleanness.
 
 * We expose services to other teams through APIs on the Developer Portal. *[<i class="fa fa-lock"></i> internal ](https://developers.apigee.lmru.tech/)*
-* We are following [API Design Principles](../../api/). Non compliant APIs should declared as a technical debt and modified.
+* We are following [API Design Principles]({{< ref "/api" >}}). Non compliant APIs should declared as a technical debt and modified.
 * <abbr data-toggle="tooltip" title="Service is an application, but not all applications are services. For example, a frontend is not a service.">Services</abbr> do not provide a client library. The API and its data model are expressed as REST and JSON <abbr  data-toggle="tooltip" title="Shared internal dependencies lead to a large-scale complexity over time.">[?]</abbr>.
 
 #### Practices & rituals: 
@@ -22,7 +22,7 @@ Each engineer may spend some part of his working time on R&D tasks, technical de
 The percentage it is approximate number and should be determined by technical leader together with the product team.
 {{< /glossary >}}
 
-{{< alert color="warning" title="Antipattern" >}}GraphQL or GRPC endpoint exposed for external usage. <sup>[[See Technology Value]](../technology/#3-choice-of-technology-should-be-aligned-with-technology-tablestack)</sup>{{< /alert >}}
+{{< alert color="warning" title="Antipattern" >}}GraphQL or GRPC endpoint exposed for external usage. <sup>[[See Technology Value]]({{< ref "technology/#3-choice-of-technology-should-be-aligned-with-technology-tablestack" >}})</sup>{{< /alert >}}
 
 ---
 

@@ -46,7 +46,7 @@ Infrastructure as a Code. We prefer to have automated configuration files rather
 
 ---
 
-### 3. Choice of technology should be aligned with [Technology Table](../../stack/).
+### 3. Choice of technology should be aligned with [Technology Table]({{< ref "/stack" >}}).
 
 * Table is kept up-to-date by technology committee.
 * All movements in the table are  logged in decision records table.
