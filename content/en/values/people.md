@@ -55,7 +55,7 @@ Also contains activities should be done in the future to prevent the repeat of t
 ### 3. We respect colleagues and their time.
 
 * We respect team rules. 
-* We prefer non-formal style of communication to officialism.
+* We prefer nonformal style of communication to officialism.
 * We know goals of every meeting and record all decisions. 
 Each invitation to the meeting should have agenda.
 * We prepare for meetings before the meeting. 
@@ -92,7 +92,7 @@ The Retro is the event giving an opportunity for the team to inspect itself and 
 
 ### 4. We give and request constructive feedback.
 
-* We prefer non-violent communication.
+* We prefer nonviolent communication.
 * We discuss facts, not emotions or personality.
 
 #### Practices & rituals: 
