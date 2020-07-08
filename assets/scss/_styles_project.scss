@@ -29,6 +29,10 @@ a.btn {
     border-radius:4px;
 }
 
+.btn {
+    border-radius: 4px;
+}
+
 code {
     color: #3B59A4;
 }
@@ -70,4 +74,9 @@ ul.navbar-nav .dropdown {
     background-image: url('/images/people.jpg');
     padding-top: 3rem;
     padding-bottom: 10rem;
+}
+
+.feedback--title {
+    border-top: 1px solid #464C5C !important;
+    padding-top: 1em;
 }
