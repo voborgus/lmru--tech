@@ -48,7 +48,7 @@ A written blameless-style incident review with the timings and activities that w
 Also contains activities should be done in the future to prevent the repeat of the accident.
 {{< /glossary >}}
 
-{{< alert color="warning" title="Antipattern" >}}Unprofitable product continues to develop for a long time because it is scary to admit a mistake.{{< /alert >}}
+{{< alert color="warning" title="Antipattern" >}}Repeatable problem on production due to lack of actions done after post-mortem has been written.{{< /alert >}}
 
 ---
 

@@ -73,4 +73,4 @@ Keep It Stupid Simple. Like Occam said, «[entities should not be multiplied wit
 Do Not Repeat Yorself. Differently said, we are not develop multilple systems/modules/microservices/components with the same purpose.
 {{< /glossary >}}
 
-{{< alert color="warning" title="Antipattern" >}}We are using some technology only because of hype or fashion.{{< /alert >}}
+{{< alert color="warning" title="Antipattern" >}}Unprofitable product continues to develop for a long time because it is scary to admit a mistake. <sup>[[See People Value]]({{< ref "people/#2-we-accept-mistakes-and-learn-from-them" >}})</sup>{{< /alert >}}

@@ -88,6 +88,7 @@ Each request on the entrance receives a unique tracing ID and pushes this ID wit
 
 ### 6. We build robust applications and infrastructure.
 
+* We know about production issues before end-users.
 * Applications handle partial outages.
 * Applications responses accurately and correctly handle wrong inputs.
 * Services provides <abbr data-toggle="tooltip" title="Service Level Objective is a goal that service provider wants to reach.">SLO</abbr> and controls them.
