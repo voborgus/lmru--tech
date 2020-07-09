@@ -7,7 +7,7 @@ description: Сonstantly challenging selection of tools.
 
 {{% pageinfo color="warning" %}}
 <h3>Work in progress</h3><br />
-Content under construction: the set of values is not accepted and not convenient for use yet. <br /><br />
+Content under construction: this set of values is not approved and should be read as a draft. <br /><br />
 {{% /pageinfo %}}
 
 ### 1. All codebase are compliant with [InnerSource requirements](https://adeo.github.io/innersource/).
