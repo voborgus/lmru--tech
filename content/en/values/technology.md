@@ -21,6 +21,12 @@ Content under construction: this set of values is not approved and should be rea
 Each engineer may spend some part of his working time on R&D tasks, technical debt reduction or education. 
 The percentage it is approximate number and should be determined by technical leader together with the product team.
 {{< /glossary >}}
+{{< glossary title="The Boy Scout Rule" source="https://deviq.com/boy-scout-rule/" >}}
+True Boy Scouts have a rule regarding camping, that they should leave the campground cleaner than they found it.
+
+Our version is: **leave your code better than you found it.**
+As [Uncle Bob said](https://www.oreilly.com/library/view/97-things-every/9780596809515/ch08.html), *the act of leaving a mess in the code should be as socially unacceptable as littering.*
+{{< /glossary >}}
 
 {{< alert color="warning" title="Antipattern" >}}Closed repository without readme and maintainers working in production.{{< /alert >}}
 
