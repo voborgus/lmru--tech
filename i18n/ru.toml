@@ -45,13 +45,12 @@ other = "Страниц в"
 [feedback_title]
 other = "Обратная связь"
 [feedback_question]
-other = "Была ли эта страница полезной?"
+other = "Ты нашёл ответ на свой вопрос?"
 [feedback_answer_yes]
 other = "Да"
 [feedback_answer_no]
 other = "Нет"
-
 [feedback_response_yes]
-other = "Спасибо за тёплые слова :) <a href='https://github.com/adeo/lmru--tech/issues/new' target='_blank'>Подскажи</a>, как можно сделать ещё лучше."
+other = "Огонь! :) <a href='https://github.com/adeo/lmru--tech/issues/new' target='_blank'>Подскажи</a>, как можно сделать ещё лучше."
 [feedback_response_no]
-other = "Печально это слышать :( <a href='https://github.com/adeo/lmru--tech/issues/new' target='_blank'>Подскажи</a>, как можно это исправить."
+other = "Печально это слышать :( <a href='https://github.com/adeo/lmru--tech/issues/new' target='_blank'>Подскажи</a>, какой вопрос у тебя был."
