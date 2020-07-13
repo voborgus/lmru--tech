@@ -21,12 +21,12 @@ linkTitle = "Leroy Merlin Tech"
 {{< /blocks/cover >}}
 
 {{< blocks/lead color="primary" >}}
-**Leroy Merlin Russia is becoming the habitant #1 platform.**
+**Leroy Merlin Russia is becoming the habitant platform.**
 
 We want to be at the top of people's minds when they are thinking about home improvement.
 
 <div class="col-12">
-<p class="h5 mt-5 text-center">38000+ collaborators · 100+ stores · annual turnover ≈300 billion rubles</p>
+<p class="h5 mt-5 text-center">38000+ collaborators · 100+ stores · #1 in DIY market in Europe and Russia · annual turnover ≈300 billion rubles</p>
 </div>
 {{< /blocks/lead >}}
 <section id="td-cover-block-people" class="row td-cover-block td-cover-block--height-min js-td-cover td-overlay td-overlay--dark -bg-dark">

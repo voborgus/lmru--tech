@@ -20,11 +20,11 @@ title = "Leroy Merlin Tech"
 {{< /blocks/cover >}}
 
 {{< blocks/lead color="primary" >}}
-**Леруа Мерлен становится платформой для обустройства дома №1.**
+**Леруа Мерлен становится платформой для обустройства дома.**
 
 Мы хотим, чтобы Леруа стала первой компанией, приходящей в голову, когда думаешь об улучшении дома.
 <div class="col-12">
-<p class="h5 mt-5 text-center">38000+ сотрудников · 100+ гипермаркетов · ежегодный оборот ≈300 миллиардов рублей</p>
+<p class="h5 mt-5 text-center">38000+ сотрудников · 100+ гипермаркетов · №1 на рынке DIY в Европе и России · ежегодный оборот ≈300 млрд. рублей</p>
 </div>
 {{< /blocks/lead >}}
 <section id="td-cover-block-people" class="row td-cover-block td-cover-block--height-min js-td-cover td-overlay td-overlay--dark -bg-dark">
