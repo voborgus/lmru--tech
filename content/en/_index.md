@@ -5,15 +5,6 @@ linkTitle = "Leroy Merlin Tech"
 
 {{< blocks/cover title="Welcome to Leroy Merlin Tech" image_anchor="top" height="full" color="orange" >}}
 <div class="mx-auto">
-	<a class="btn btn-lg btn-secondary mr-3 mb-4" href="#td-block-1">
-		<i class="fas fa-caret-square-up mr-2 "></i> About
-	</a>
-	<a class="btn btn-lg btn-warning mr-3 mb-4" href="values/">
-		Our Values 
-	</a>
-	<a class="btn btn-lg btn-info mr-3 mb-4" href="api/">
-		<i class="fas fa-location-arrow mr-2 "></i> API
-	</a>
 	<p class="lead" id="main-subtitle">Company`s engineering portal.</p>
 	{{< blocks/link-down color="secondary" >}}
 	
