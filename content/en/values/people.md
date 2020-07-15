@@ -13,6 +13,7 @@ Content under construction: this set of values is not approved and should be rea
 ### 1. We value common success on the same level with personal.
 
 * We are open to colleagues, we share personal and team experience.
+* We share common culture, best practices and their understanding within each team.
 
 #### Practices & rituals: 
 {{< glossary title="Communities" >}}
@@ -25,7 +26,22 @@ is a source of organizational and professional help and
 almost the only way to keep a connection between colleagues with similar competences across the organization.
 It is highly encouraged for teams to invest resources in community development.
 {{< /glossary >}}
-{{< alert color="warning" title="Antipattern" >}}Overfulfill your own tasks while your colleague can not finish in time and you were able to help.{{< /alert >}}
+
+{{< glossary title="Retrospective" source="https://www.scrumguides.org/scrum-guide.html#events-retro" >}}
+The Retro is the event giving an opportunity for the team to inspect itself and create a plan for improvements to be enacted next time.
+{{< /glossary >}}
+
+{{< glossary title="InnerSource" >}}
+[Being InnerSource Ready](https://adeo.github.io/innersource) means that you are ready to collaborate with other developers, including developers in your team.
+{{< /glossary >}}
+
+{{< glossary title="Contribution conventions" source="https://adeo.github.io/innersource" >}}
+The project uses a consistent convention to handle contributions from it’s own team but also for external teams, I.E: pull requests, code-review and branch permissions
+{{< /glossary >}}
+
+{{< alert color="warning" title="Antipattern" >}}
+Overfulfill your own tasks while your colleague can not finish in time and you were able to help.
+{{< /alert >}}
 
 ---
 
@@ -56,10 +72,10 @@ Also contains activities that should be done in the future to prevent repetition
 
 * We respect team rules. 
 * We prefer nonformal style of communication to officialism.
-* We know goals of every meeting and record all decisions. 
-Each invitation to a meeting should have an agenda.
-* We prepare for meetings before the meeting. 
-Meetings are not the only way to make a decision.
+* We know goals of every meeting and record all decisions. Each invitation to a meeting should have an agenda.
+* We prepare for meetings before the meeting. Meetings are not the only way to make a decision
+* We listen to each other and give everyone an opportunity to express and explain their point of view.
+* We don't impose our opinion in any way, but do our best to explain it and convince others.
 * We may work remotely and have flexible working hours. 
 
 #### Practices & rituals: 
@@ -85,8 +101,13 @@ Special event for planning of the work to be performed. This plan is created by 
 {{< glossary title="Retrospective" source="https://www.scrumguides.org/scrum-guide.html#events-retro" >}}
 The Retro is the event giving an opportunity for the team to inspect itself and create a plan for improvements to be enacted next time.
 {{< /glossary >}}
+{{< glossary title="Facilitation" source="https://www.scrum.org/resources/blog/scrum-master-master-art-facilitation" >}}
+Facilitation is a technique to manage a group conversation in such a way that everyone stays on the topic and is involved in a meaningful way.
+{{< /glossary >}}
 
-{{< alert color="warning" title="Antipattern" >}}1 hour meeting with 30 participants without agenda and written conclusions.{{< /alert >}}
+{{< alert color="warning" title="Antipattern" >}}
+1 hour meeting with 30 participants without agenda and written conclusions.
+{{< /alert >}}
 
 ---
 
@@ -94,6 +115,7 @@ The Retro is the event giving an opportunity for the team to inspect itself and 
 
 * We use nonviolent communication.
 * We discuss facts, not emotions or personality.
+* We are open to new ideas.
 
 #### Practices & rituals: 
 
@@ -106,7 +128,10 @@ Short cycles and feedback loops – an ideal picture.
 The sooner you get the feedback, the faster you can fix the problem.
 {{< /glossary >}}
 
-{{< alert color="warning" title="Antipattern" >}}Your code is a shitty piece of spaghetti.{{< /alert >}}
+
+{{< alert color="warning" title="Antipattern" >}}
+OMG, screw this Slack, I have so many chats in Telegram — it would be such a pain to move there.
+{{< /alert >}}
 
 ---
 
