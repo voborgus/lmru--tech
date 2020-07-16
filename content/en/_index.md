@@ -3,7 +3,7 @@ title = "Leroy Merlin Tech"
 linkTitle = "Leroy Merlin Tech"
 +++
 
-{{< blocks/cover title="Leroy Merlin Tech" image_anchor="top" height="full" color="orange" >}}
+{{< blocks/cover title="Leroy Merlin Tech" image_anchor="top" height="full" color="primary" >}}
 <div class="mx-auto">
 	<p class="lead" id="main-subtitle">Company`s engineering portal.</p>
 	{{< blocks/link-down color="secondary" >}}

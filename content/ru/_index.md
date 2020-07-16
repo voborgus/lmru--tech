@@ -2,7 +2,7 @@
 title = "Leroy Merlin Tech"
 +++
 
-{{< blocks/cover title="Добро пожаловать в Леруа Мерлен Tech" image_anchor="top" height="full" color="orange" >}}
+{{< blocks/cover title="Добро пожаловать в Леруа Мерлен Tech" image_anchor="top" height="full" color="primary" >}}
 <div class="mx-auto">
 	<p class="lead mr-3 mb-4"" id="main-subtitle">Инженeрный портал компании</p>
 	{{< blocks/link-down color="secondary" >}}
