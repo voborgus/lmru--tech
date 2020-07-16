@@ -3,7 +3,7 @@ title = "Leroy Merlin Tech"
 linkTitle = "Leroy Merlin Tech"
 +++
 
-{{< blocks/cover title="Welcome to Leroy Merlin Tech" image_anchor="top" height="full" color="orange" >}}
+{{< blocks/cover title="Leroy Merlin Tech" image_anchor="top" height="full" color="orange" >}}
 <div class="mx-auto">
 	<p class="lead" id="main-subtitle">Company`s engineering portal.</p>
 	{{< blocks/link-down color="secondary" >}}
@@ -20,24 +20,18 @@ We want to be at the top of people's minds when they are thinking about home imp
 <p class="h5 mt-5 text-center">38000+ collaborators · 100+ stores · #1 in DIY market in Europe and Russia · annual turnover ≈300 billion rubles</p>
 </div>
 {{< /blocks/lead >}}
-<section id="td-cover-block-people" class="row td-cover-block td-cover-block--height-min js-td-cover td-overlay td-overlay--dark -bg-dark">
-  <div class="container td-overlay__inner">
-    <div class="row">
-      <div class="col-12">
-		<p class="h3 text-center">Being an IT, we want to build Retailer — technology company-platform.</p>
-		<p class="h4 mt-3 text-center">Our mission is bring autonomy to product teams, support it with tools and governance to increase productivity and ensure the required level of quality.</p>
-		<p class="h5 mt-4 mb-5 text-center">500+ IT connected people divided into ≈100 product teams and 19 domains.</p>
-      </div>
-    </div>
-  </div>
-  
-</section>
+
+
+{{< blocks/it color="primary" height="min" >}}
+Being an IT, we want to build Retailer — technology company-platform.
+
+Our mission is bring autonomy to product teams, support it with tools and governance to increase productivity and ensure the required level of quality.
+
+<h5>500+ IT connected people divided into ≈100 product teams and 19 domains.</h5>
+
+{{< /blocks/it >}}
 
 {{< blocks/section color="cover" >}}
-<div class="col-12">
-<h1 class="text-center">Our Values</h1><br />
-</div>
-
 {{% blocks/feature icon="fa-users" title="People" url="values/people/" %}}
 People are the heart of the company.
 {{% /blocks/feature %}}
@@ -49,7 +43,6 @@ Building long-term systems and fighting with technical debt.
 {{% blocks/feature icon="fa-memory" title="Technology" url="values/technology/" %}}
 Сonstantly challenging selection of tools.
 {{% /blocks/feature %}}
-
 {{< /blocks/section >}}
 
 

@@ -18,23 +18,17 @@ title = "Leroy Merlin Tech"
 <p class="h5 mt-5 text-center">38000+ сотрудников · 100+ гипермаркетов · №1 на рынке DIY в Европе и России · ежегодный оборот ≈300 млрд. рублей</p>
 </div>
 {{< /blocks/lead >}}
-<section id="td-cover-block-people" class="row td-cover-block td-cover-block--height-min js-td-cover td-overlay td-overlay--dark -bg-dark">
-  <div class="container td-overlay__inner">
-    <div class="row">
-      <div class="col-12">
-		<p class="h3 text-center">Как IT, мы строим ритейлер — технологическую компанию-платформу.</p>
-		<p class="h4 mt-3 text-center">Наша миссия – дать автономность продуктовым командам, поддерживать их инструментами и управлением, для того, чтобы увеличить продуктивность и поддержать необходимый уровень качества.</p>
-		<p class="h5 mt-4 mb-5 text-center">500+ людей из IT поделены по ≈100 продуктовым командам и 19 доменам.</p>
-      </div>
-    </div>
-  </div>
-  
-</section>
-{{< blocks/section color="white" >}}
-<div class="col-12">
-<h1 class="text-center">Наши ценности</h1><br />
-</div>
 
+{{< blocks/it color="primary" height="min" >}}
+Как IT, мы строим ритейлер — технологическую компанию-платформу.
+
+Наша миссия – дать автономность продуктовым командам, поддерживать их инструментами и управлением, для того, чтобы увеличить продуктивность и поддержать необходимый уровень качества.
+
+<h5>500+ людей из IT поделены по ≈100 продуктовым командам и 19 доменам.</h5>
+
+{{< /blocks/it >}}
+
+{{< blocks/section color="white" >}}
 {{% blocks/feature icon="fa-users" title="Люди" url="values/people/" %}}
 Человеческие отношения на первом месте.
 {{% /blocks/feature %}}
@@ -46,7 +40,6 @@ title = "Leroy Merlin Tech"
 {{% blocks/feature icon="fa-memory" title="Технологии" url="values/technology/" %}}
 Постоянно челленджим выбор технологий.
 {{% /blocks/feature %}}
-
 {{< /blocks/section >}}
 
 
