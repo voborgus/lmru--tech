@@ -111,4 +111,8 @@ A way how to track SLO.
 * Tickets — does the service require manual intervention to complete my request?
 {{< /glossary >}}
 
+{{< glossary title="Feature Toggling">}}
+An approach where new functionality should be added as a pluggable module and can be turned off at any time.
+{{< /glossary >}}
+
 {{< alert color="warning" title="Antipattern" >}}Client can't order because email system is broken.{{< /alert >}}
