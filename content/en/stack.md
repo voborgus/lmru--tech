@@ -15,6 +15,28 @@ We don't use a mono stack approach.
 Our wide stack gives us the possibility to use the best tools for each use case, helps to model tech future,
 to develop skills and avoid tech and vendor lock-in.
 
+## Technology table
+Here is the second version of the way of displaying of a tech stack.
+Previously we had Technology Radar, however, this could not be used.
+
+To make the process of choosing technology more clear and simple we going to have a table,
+where we have an <abbr data-toggle="tooltip" title="DB, Frontend, backend, etc">area</abbr>
+and <abbr data-toggle="tooltip" title="CRUD API, BFF, Process orchestration and so on">use cases</abbr>.
+For each use case, we have the <abbr data-toggle="tooltip" title="programming language, framework, product">technology</abbr>
+and our attitude to this. Attitude shows: is it the `best choice`, on `research` or on the `trial stage`.
+We have the `hold` section where located unaccepted or ancient technologies. Our attitude to each technology
+has an explanation of why.
+
+All categories except `research` can work in production.
+
+**Legend:** <code class='lang'>Languages & Frameworks</code> <code class='tool'>Tools</code> <code class='platform'>Platforms</code>
+</div>
+</div>
+
+{{< stack >}}
+
+<div class="row">
+<div class="col-md-10 col-xl-9 text-justify">
 #### Here are the main influences to select the right technologies:
 * Current and future capability to develop and support component in terms of workforce
 * Maturity of a technology
@@ -46,26 +68,8 @@ are made with a positive decision by more than 50% of the participants.
 <abbr data-toggle="tooltip" title="Chief Information Officer">CIO</abbr>,
 and <abbr data-toggle="tooltip" title="Lead Enterprice Architect">LEA</abbr>have the right to veto all decisions made.
 All movements in the Table are logged in decision records table with the dates and causes.
-
-### Technology table
-Here is the second version of the way of displaying of a tech stack.
-Previously we had Technology Radar, however, this could not be used.
-
-To make the process of choosing technology more clear and simple we going to have a table,
-where we have an <abbr data-toggle="tooltip" title="DB, Frontend, backend, etc">area</abbr>
-and <abbr data-toggle="tooltip" title="CRUD API, BFF, Process orchestration and so on">use cases</abbr>.
-For each use case, we have the <abbr data-toggle="tooltip" title="programming language, framework, product">technology</abbr>
-and our attitude to this. Attitude shows: is it the `best choice`, on `research` or on the `trial stage`.
-We have the `hold` section where located unaccepted or ancient technologies. Our attitude to each technology
-has an explanation of why.
-
-All categories except `research` can work in production.
-
-**Legend:** <code class='lang'>Languages & Frameworks</code> <code class='tool'>Tools</code> <code class='platform'>Platforms</code>
 </div>
 </div>
-
-{{< stack >}}
 
 ### Other tools
 
