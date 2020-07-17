@@ -146,4 +146,11 @@ OMG, screw this Slack, I have so many chats in Telegram — it would be such a p
 Want to change job — ask HR for options. There is a possibility to change a product/project.
 {{< /glossary >}}
 
+{{< glossary title="In Store Integration" >}}
+Every collaborator not depending on his position and role 
+Each employee, regardless of position or position, must pass a two-week internship in the store.
+
+This is necessary to better understand the specifics of the business, people and their real pains.
+{{< /glossary >}}
+
 {{< alert color="warning" title="Antipattern" >}}After one year of work notice that not learned anything new.{{< /alert >}}
