@@ -14,13 +14,14 @@ html {
     padding-top: 1rem;
 }
 
+.td-cover-block {
+    background-position: 50% 100%;
+}
+
 .td-toc {
     top: 5rem;
 }
 
-#main-subtitle {
-    margin-top: 15rem;
-}
 body {
     color: #333;
 }
@@ -127,3 +128,10 @@ table.dataTable {
     }
 }
 
+#td-cover-block-0 h1 {
+    margin-top: 8rem !important;
+}
+
+.giant-icon {
+    font-size: 86pt;
+}

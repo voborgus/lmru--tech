@@ -122,7 +122,7 @@ limitations under the License.
         return null;
     }
       var preferLang = getFirstBrowserLanguage()
-      if (window.location.pathname == '/' && !getCookie("redirected") && preferLang.indexOf('en') !== -1) {
+      if (window.location.pathname == '/' && !getCookie("redirected") && preferLang.indexOf('ru') == -1) {
         setCookie("redirected", true, 365);
         window.location.replace('/en/');
       }

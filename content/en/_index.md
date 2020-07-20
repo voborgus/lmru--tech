@@ -3,26 +3,19 @@ title = "Leroy Merlin Tech"
 linkTitle = "Leroy Merlin Tech"
 +++
 
-{{< blocks/cover title="Leroy Merlin Tech" image_anchor="top" height="full" color="primary" >}}
-<div class="mx-auto">
-	<p class="lead" id="main-subtitle">Company`s engineering portal.</p>
-	{{< blocks/link-down color="secondary" >}}
-	
-</div>
-{{< /blocks/cover >}}
+{{< blocks/cover height="min" color="primary" >}}
+{{< /blocks/cover >}} 
 
-{{< blocks/lead color="primary" >}}
-**Leroy Merlin Russia is becoming the habitant platform.**
+{{< blocks/icon left="fort-awesome" >}}
+Leroy Merlin Russia – the habitant platform.
 
 We want to be at the top of people's minds when they are thinking about home improvement.
 
-<div class="col-12">
-<p class="h5 mt-5 text-center">38000+ collaborators · 100+ stores · #1 in DIY market in Europe and Russia · annual turnover ≈300 billion rubles</p>
-</div>
-{{< /blocks/lead >}}
+36000+ collaborators · 100+ stores · #1 in DIY market in Europe and Russia.*
+{{< /blocks/icon >}}
 
 
-{{< blocks/it color="primary" height="min" >}}
+{{< blocks/it color="primary" height="max" icon-right="laptop-code" >}}
 Being an IT, we want to build Retailer — technology company-platform.
 
 Our mission is bring autonomy to product teams, support it with tools and governance to increase productivity and ensure the required level of quality.
@@ -31,7 +24,7 @@ Our mission is bring autonomy to product teams, support it with tools and govern
 
 {{< /blocks/it >}}
 
-{{< blocks/section color="cover" >}}
+{{< blocks/section color="white">}}
 {{% blocks/feature icon="fa-users" title="People" url="values/people/" %}}
 People are the heart of the company.
 {{% /blocks/feature %}}
@@ -45,8 +38,7 @@ Building long-term systems and fighting with technical debt.
 {{% /blocks/feature %}}
 {{< /blocks/section >}}
 
-
-{{< blocks/section color="secondary" >}}
+{{< blocks/section color="white">}}
 <div class="col">
 <h1 class="text-center">Work in progress</h1>
 <div class="text-center">This site is currently under construction. You can improve it with <a href="https://github.com/adeo/lmru--tech/pulls">Pull Requests</a>.</div>
@@ -54,9 +46,7 @@ Building long-term systems and fighting with technical debt.
 
 {{< /blocks/section >}}
 
-
-
-{{< blocks/section color="light">}}
+{{< blocks/section color="white" >}}
 
 {{% blocks/feature icon="fab fa-github" title="Contributions welcome" %}}
 This site generated from a GitHub repository. <br /> Send a [Pull Request](https://github.com/adeo/lmru--tech/pulls) for change.
