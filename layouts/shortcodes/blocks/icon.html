@@ -1,16 +1,13 @@
 {{ $_hugo_config := `{ "version": 1 }` }}
 {{ $col_id := .Get "color" | default .Ordinal }}
 {{ $height := .Get "height" | default "auto"  }}
-{{ $left := .Get "left" }}
 {{/* Height can be one of: auto, min, med, max, full. */}}
 <section class="row td-box td-box--{{ $col_id }} position-relative td-box--gradient td-box--height-{{ $height }}">
 	<div class="container mb-0">
 		<div class="row">
-			{{ with $left }}
 			<div class="col-2">
-				<i class="fab fa-{{ . }} giant-icon"></i>
+				<i class="fab fa-fort-awesome giant-icon"></i>
 			</div>
-			{{ end }}
 			<div class="col-10 h5">
 				{{ .Inner | markdownify }}
 			</div>

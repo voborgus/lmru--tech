@@ -2,7 +2,6 @@
 {{ $blockID := printf "td-cover-block-%d" .Ordinal }}
 {{ $promo_image := (.Page.Resources.ByType "image").GetMatch "**people*" }}
 {{ $col_id := .Get "color" | default "dark" }}
-{{ $iconright := .Get "icon-right" }}
 {{ $image_anchor := .Get "image_anchor" | default "smart" }}
 {{/* Height can be one of: auto, min, med, max, full. */}}
 {{ $height := .Get "height" | default "max" }}
@@ -31,11 +30,9 @@
       <div class="col-10 h5 text-right">
           {{ .Inner | markdownify}}
       </div>
-      {{ with $iconright }}
 			<div class="col-2">
-				<i class="fa fa-{{ . }} giant-icon"></i>
+				<i class="fa fa-laptop-code giant-icon"></i>
 			</div>
-			{{ end }}
     </div>
   </div>
   {{ if $byline }}
