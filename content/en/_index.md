@@ -11,7 +11,7 @@ Leroy Merlin Russia – the habitant platform.
 
 We want to be at the top of people's minds when they are thinking about home improvement.
 
-36000+ collaborators · 100+ stores · #1 in DIY market in Europe and Russia.*
+36000+ collaborators · 100+ stores · #1 in DIY market in Europe and Russia.
 {{< /blocks/icon >}}
 
 
