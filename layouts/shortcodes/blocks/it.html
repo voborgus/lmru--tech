@@ -24,13 +24,13 @@
 }
 </style>
 {{ end }}
-<section id="{{ $blockID }}" class="row td-cover-block td-cover-block--height-{{ $height }} js-td-cover td-overlay td-overlay--dark -bg-{{ $col_id }}">
+<section id="{{ $blockID }}" class="row td-cover-block td-box td-cover-block--height-{{ $height }} js-td-cover td-overlay td-overlay--dark -bg-{{ $col_id }}">
   <div class="container td-overlay__inner">
     <div class="row pt-3">
-      <div class="col-10 h5 text-right">
+      <div class="col-lg-10 h5 text-lg-right text-sm-left col-sm-12">
           {{ .Inner | markdownify}}
       </div>
-			<div class="col-2">
+			<div class="col-lg-2 col-sm-12 text-lg-right text-sm-left">
 				<i class="fa fa-laptop-code giant-icon"></i>
 			</div>
     </div>
