@@ -1,9 +1,5 @@
 module.exports = {
     plugins: {
-        '@fullhuman/postcss-purgecss': {
-          content: ['**/*.html', '**/*.js'],
-          whitelist: ['td-cover-block--height-max', 'td-cover-block--height-min', 'table.dataTable']
-        },
         autoprefixer: {
             browsers: [
                 "last 2 versions",
