@@ -135,9 +135,9 @@ OMG, screw this Slack, I have so many chats in Telegram — it would be such a p
 
 ---
 
-### 5. Your job is safe, your role is not.
+### 5. We constantly develop our skills and can choose any direction.
 
-* We constantly develop our skills and can choose any direction.
+* Our job is safe, but role is not.
 * We can ask colleagues to be a mentor.
 
 #### Practices & rituals:
