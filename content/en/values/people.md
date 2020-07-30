@@ -147,10 +147,32 @@ Want to change job — ask HR for options. There is a possibility to change a pr
 {{< /glossary >}}
 
 {{< glossary title="In Store Integration" >}}
-Every collaborator not depending on his position and role 
 Each employee, regardless of position or position, must pass a two-week internship in the store.
 
 This is necessary to better understand the specifics of the business, people and their real pains.
 {{< /glossary >}}
 
 {{< alert color="warning" title="Antipattern" >}}After one year of work notice that not learned anything new.{{< /alert >}}
+
+---
+
+### 6. We work consciously.
+
+* We know the subject area.
+* We understand what for and why we are doing every task.
+* We know the code we write and technologies we use.
+
+{{< glossary title="In Store Integration" >}}
+Each employee, regardless of position or position, must pass a two-week internship in the store.
+
+This is necessary to better understand the specifics of the business, people and their real pains and think about possible improvements.
+{{< /glossary >}}
+{{< glossary title="Retrospective" source="https://www.scrumguides.org/scrum-guide.html#events-retro" >}}
+The Retro is the event giving an opportunity for the team to inspect itself and create a plan for improvements to be enacted next time.
+{{< /glossary >}}
+{{< glossary title="30% rule" >}}
+Each engineer may spend some part of his working time on R&D tasks, technical debt reduction or education. 
+The percentage it is approximate number and should be determined by technical leader together with the product team.
+{{< /glossary >}}
+
+{{< alert color="warning" title="Antipattern" >}}Mindlessly copy a solution from stackoverflow and happily close the task.{{< /alert >}}
