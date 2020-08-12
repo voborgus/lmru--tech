@@ -26,15 +26,12 @@ is a source of organizational and professional help and
 almost the only way to keep a connection between colleagues with similar competences across the organization.
 It is highly encouraged for teams to invest resources in community development.
 {{< /glossary >}}
-
 {{< glossary title="Retrospective" source="https://www.scrumguides.org/scrum-guide.html#events-retro" >}}
 The Retro is the event giving an opportunity for the team to inspect itself and create a plan for improvements to be enacted next time.
 {{< /glossary >}}
-
 {{< glossary title="InnerSource" >}}
 [Being InnerSource Ready](https://adeo.github.io/innersource) means that you are ready to collaborate with other developers, including developers in your team.
 {{< /glossary >}}
-
 {{< glossary title="Contribution conventions" source="https://adeo.github.io/innersource" >}}
 The project uses a consistent convention to handle contributions from it’s own team but also for external teams, I.E: pull requests, code-review and branch permissions
 {{< /glossary >}}
@@ -92,15 +89,6 @@ We are modifying our process for meetings, reviews, and other collaboration to a
 {{< glossary title="Tools Availability" >}}
 We can take corporate notebooks wherever we want. All tools and environments are available on the internet or through VPN.
 {{< /glossary >}}
-{{< glossary title="Daily Meeting" source="https://www.scrumguides.org/scrum-guide.html#events-daily" >}}
-15-minute time-boxed event held each day for the team for the next 24 hours work planning. This optimizes team collaboration and performance by inspecting the work since the last Daily and forecasting upcoming work.
-{{< /glossary >}}
-{{< glossary title="Planning" source="https://www.scrumguides.org/scrum-guide.html#events-planning" >}}
-Special event for planning of the work to be performed. This plan is created by the collaborative work of the entire team.
-{{< /glossary >}}
-{{< glossary title="Retrospective" source="https://www.scrumguides.org/scrum-guide.html#events-retro" >}}
-The Retro is the event giving an opportunity for the team to inspect itself and create a plan for improvements to be enacted next time.
-{{< /glossary >}}
 {{< glossary title="Facilitation" source="https://www.scrum.org/resources/blog/scrum-master-master-art-facilitation" >}}
 Facilitation is a technique to manage a group conversation in such a way that everyone stays on the topic and is involved in a meaningful way.
 {{< /glossary >}}
@@ -147,10 +135,32 @@ Want to change job — ask HR for options. There is a possibility to change a pr
 {{< /glossary >}}
 
 {{< glossary title="In Store Integration" >}}
-Every collaborator not depending on his position and role 
 Each employee, regardless of position or position, must pass a two-week internship in the store.
 
 This is necessary to better understand the specifics of the business, people and their real pains.
 {{< /glossary >}}
 
 {{< alert color="warning" title="Antipattern" >}}After one year of work notice that not learned anything new.{{< /alert >}}
+
+---
+
+### 6. We work consciously.
+
+* We know the subject area.
+* We understand what for and why we are doing every task.
+* We know the code we write and technologies we use.
+
+{{< glossary title="In Store Integration" >}}
+Each employee, regardless of position or position, must pass a two-week internship in the store.
+
+This is necessary to better understand the specifics of the business, people and their real pains and think about possible improvements.
+{{< /glossary >}}
+{{< glossary title="Retrospective" source="https://www.scrumguides.org/scrum-guide.html#events-retro" >}}
+The Retro is the event giving an opportunity for the team to inspect itself and create a plan for improvements to be enacted next time.
+{{< /glossary >}}
+{{< glossary title="30% rule" >}}
+Each engineer may spend some part of his working time on R&D tasks, technical debt reduction or education. 
+The percentage it is approximate number and should be determined by technical leader together with the product team.
+{{< /glossary >}}
+
+{{< alert color="warning" title="Antipattern" >}}Mindlessly copy a solution from stackoverflow and happily close the task.{{< /alert >}}
