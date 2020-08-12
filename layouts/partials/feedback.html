@@ -33,7 +33,6 @@
     noButton.disabled = true;
   };
   const sendFeedback = (value) => {
-    if (typeof dataLayer !== 'function') return;
     dataLayer.push({
     'event': 'LeroyMerlin_new',
     'eventAction': 'click',
