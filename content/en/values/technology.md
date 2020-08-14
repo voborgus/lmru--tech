@@ -73,7 +73,7 @@ Meetings are held at least once a month. Leader — CTO.
 
 ### 4. Front applications follow [Design System](https://fronton.leroymerlin.ru/).
 
-<i class="fa fa-lock"></i> <i>Design system currently accessible only from internal network</i>
+<i class="fa fa-lock mr-1"></i> <i>Design system currently accessible only from internal network</i>
 
 * All business settings configurable through UI.
 
