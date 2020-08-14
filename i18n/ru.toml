@@ -54,3 +54,7 @@ other = "Нет"
 other = "Огонь! :) <a href='https://github.com/adeo/lmru--tech/issues/new' target='_blank'>Подскажи</a>, как можно сделать ещё лучше."
 [feedback_response_no]
 other = "Печально это слышать :( <a href='https://github.com/adeo/lmru--tech/issues/new' target='_blank'>Подскажи</a>, какой вопрос у тебя был."
+[feedback_thanks]
+other = "Спасибо за фидбек!"
+[feedback_emotion]
+other = "Соберём самые полезные и бесполезные ценности. Ты также можешь <a href='https://github.com/adeo/lmru--tech/issues/new?title='>предложить исправление</a>."

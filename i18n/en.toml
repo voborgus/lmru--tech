@@ -54,3 +54,7 @@ other = "No"
 other = "Great :) Please <a href='https://github.com/adeo/lmru--tech/issues/new' target='_blank'>tell us</a> how we can improve."
 [feedback_response_no]
 other = "Sorry to hear that :( Please <a href='https://github.com/adeo/lmru--tech/issues/new' target='_blank'>tell us</a> the question you had."
+[feedback_thanks]
+other = "Thanks for feedback!"
+[feedback_emotion]
+other = "We will analyze results. Also, you can <a href='https://github.com/adeo/lmru--tech/issues/new?title='>advice changes</a>."
