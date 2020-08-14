@@ -71,7 +71,9 @@ Meetings are held at least once a month. Leader — CTO.
 
 ---
 
-### 4. Front applications follow [design system](https://zeroheight.com/1165fb04f/).
+### 4. Front applications follow [Design System](https://fronton.leroymerlin.ru/).
+
+<i class="fa fa-lock"></i> <i>Design system currently accessible only from internal network</i>
 
 * All business settings configurable through UI.
 
