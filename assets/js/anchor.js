@@ -71,8 +71,8 @@ limitations under the License.
                             'event': 'LeroyMerlin_new',
                             'eventAction': 'click',
                             'eventCategory': 'Interactions',
-                            'eventLabel': 'button',
-                            'eventLocation': window.location.pathname, 
+                            'eventLabel': 'emotions',
+                            'eventLocation': document.location.pathname, 
                             'eventContent': 'Yes', 
                             'eventContext': heading.id
                             });
@@ -86,8 +86,8 @@ limitations under the License.
                             'event': 'LeroyMerlin_new',
                             'eventAction': 'click',
                             'eventCategory': 'Interactions',
-                            'eventLabel': 'button',
-                            'eventLocation': window.location.pathname, 
+                            'eventLabel': 'emotions',
+                            'eventLocation': document.location.pathname, 
                             'eventContent': 'No', 
                             'eventContext': heading.id
                             });
