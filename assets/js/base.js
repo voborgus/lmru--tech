@@ -26,6 +26,10 @@ limitations under the License.
             trigger: 'focus'
         })
 
+        $("body").on("click", ".glossary-close", function(){
+            $('.glossary').popover('hide');
+        });
+
         $('.glossary').click(function(){
             $('.glossary').popover('hide');
         }).popover({
@@ -36,7 +40,7 @@ limitations under the License.
             animation: false,
             placement: 'bottom',
             html: true,
-            template: '<div class="popover" role="tooltip"><div class="arrow"></div><i class="fa fa-times-circle" onclick="$(\'.glossary\').popover(\'hide\');"></i><h3 class="popover-header"></h3><div class="popover-body"></div></div>'
+            template: '<div class="popover" role="tooltip"><div class="arrow"></div><i class="fa fa-times-circle glossary-close"></i><h3 class="popover-header"></h3><div class="popover-body"></div></div>'
         });
     });
 
