@@ -58,3 +58,15 @@ other = "Sorry to hear that :( Please <a href='https://github.com/adeo/lmru--tec
 other = "Thanks for feedback!"
 [feedback_emotion]
 other = "We will analyze results. Also, you can <a href='https://github.com/adeo/lmru--tech/issues/new?title='>advice changes</a>."
+[values_people]
+other = "People"
+[values_people_desc]
+other = "People are the heart of the company."
+[values_tech]
+other = "Technology"
+[values_tech_desc]
+other = "Сonstantly challenging selection of tools."
+[values_arch]
+other = "Architecture"
+[values_arch_desc]
+other = "Building long-term systems and fighting with technical debt."
