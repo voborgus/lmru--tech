@@ -21,10 +21,14 @@ limitations under the License.
     $(function() {
         $('[data-toggle="tooltip"]').tooltip();
         $('[data-toggle="popover"]').popover();
-
+        $('.toast').toast({'delay': 3000});
         $('.popover-dismiss').popover({
             trigger: 'focus'
         })
+
+        $("body").on("click", ".glossary-close", function(){
+            $('.glossary').popover('hide');
+        });
 
         $('.glossary').click(function(){
             $('.glossary').popover('hide');
@@ -36,7 +40,7 @@ limitations under the License.
             animation: false,
             placement: 'bottom',
             html: true,
-            template: '<div class="popover" role="tooltip"><div class="arrow"></div><i class="fa fa-times-circle" onclick="$(\'.glossary\').popover(\'hide\');"></i><h3 class="popover-header"></h3><div class="popover-body"></div></div>'
+            template: '<div class="popover" role="tooltip"><div class="arrow"></div><i class="fa fa-times-circle glossary-close"></i><h3 class="popover-header"></h3><div class="popover-body"></div></div>'
         });
     });
 
@@ -77,6 +81,27 @@ limitations under the License.
     
 }(jQuery));
 
+function setCookie(name, value, days) {
+    var expires = "";
+    if (days) {
+        var date = new Date();
+        date.setTime(date.getTime() + (days*24*60*60*1000));
+        expires = "; expires=" + date.toUTCString();
+    }
+    document.cookie = name + "=" + (value || "")  + expires + "; path=/";
+}
+
+function getCookie(name) {
+    var nameEQ = name + "=";
+    var ca = document.cookie.split(';');
+    for(var i=0;i < ca.length;i++) {
+        var c = ca[i];
+        while (c.charAt(0)==' ') c = c.substring(1,c.length);
+        if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+    }
+    return null;
+}
+
     (function () {
         var getFirstBrowserLanguage = function () {
         var nav = window.navigator,
@@ -102,25 +127,7 @@ limitations under the License.
         }
         return 'en'
       }
-    function setCookie(name, value, days) {
-        var expires = "";
-        if (days) {
-            var date = new Date();
-            date.setTime(date.getTime() + (days*24*60*60*1000));
-            expires = "; expires=" + date.toUTCString();
-        }
-        document.cookie = name + "=" + (value || "")  + expires + "; path=/";
-    }
-    function getCookie(name) {
-        var nameEQ = name + "=";
-        var ca = document.cookie.split(';');
-        for(var i=0;i < ca.length;i++) {
-            var c = ca[i];
-            while (c.charAt(0)==' ') c = c.substring(1,c.length);
-            if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
-        }
-        return null;
-    }
+    
       var preferLang = getFirstBrowserLanguage()
       if (window.location.pathname == '/' && !getCookie("redirected") && preferLang.indexOf('ru') == -1) {
         setCookie("redirected", true, 365);

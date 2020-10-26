@@ -23,6 +23,19 @@
 <p class="feedback--response feedback--response-no">
   {{ T "feedback_response_no" | safeHTML }}
 </p>
+
+  <div class="toast" id="emotions" style="position: fixed; bottom: 50px; right: 250px;">
+    <div class="toast-header">
+      <strong class="mr-auto">{{ T "feedback_thanks" }}</strong>
+      <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+    <div class="toast-body">
+      {{ T "feedback_emotion" | safeHTML }}
+    </div>
+  </div>
+
 <script>
   const yesButton = document.querySelector('.feedback--answer-yes');
   const noButton = document.querySelector('.feedback--answer-no');
@@ -37,8 +50,8 @@
     'event': 'LeroyMerlin_new',
     'eventAction': 'click',
     'eventCategory': 'Interactions',
-    'eventLabel': 'button',
-    'eventLocation': window.location.pathname, 
+    'eventLabel': 'emotions',
+    'eventLocation': document.location.pathname, 
     'eventContent': value, 
     'eventContext': 'Полезность'
     });

@@ -54,3 +54,19 @@ other = "Нет"
 other = "Огонь! :) <a href='https://github.com/adeo/lmru--tech/issues/new' target='_blank'>Подскажи</a>, как можно сделать ещё лучше."
 [feedback_response_no]
 other = "Печально это слышать :( <a href='https://github.com/adeo/lmru--tech/issues/new' target='_blank'>Подскажи</a>, какой вопрос у тебя был."
+[feedback_thanks]
+other = "Спасибо за фидбек!"
+[feedback_emotion]
+other = "Соберём самые полезные и бесполезные ценности. Ты также можешь <a href='https://github.com/adeo/lmru--tech/issues/new?title='>предложить исправление</a>."
+[values_people]
+other = "Люди"
+[values_people_desc]
+other = "Люди в сердце компании."
+[values_tech]
+other = "Технологии"
+[values_tech_desc]
+other = "Постоянно челленджим выбор технологий."
+[values_arch]
+other = "Архитектура"
+[values_arch_desc]
+other = "Строим долгосрочные решения и боремся техническим долгом."

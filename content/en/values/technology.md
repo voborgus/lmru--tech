@@ -6,7 +6,7 @@ description: Сonstantly challenging selection of tools.
 ---
 
 {{% pageinfo color="warning" %}}
-<h3>Work in progress</h3><br />
+<h4>Work in progress</h4><br />
 Content under construction: this set of values is not approved and should be read as a draft. <br /><br />
 {{% /pageinfo %}}
 
@@ -71,7 +71,9 @@ Meetings are held at least once a month. Leader — CTO.
 
 ---
 
-### 4. Front applications follow [design system](https://zeroheight.com/1165fb04f/).
+### 4. Front applications follow [Design System](https://fronton.leroymerlin.ru/).
+
+<i class="fa fa-lock mr-1"></i> <i>Design system currently accessible only from internal network</i>
 
 * All business settings configurable through UI.
 
