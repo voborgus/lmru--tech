@@ -381,7 +381,7 @@
                 if(youmax_global_options.showVideoInLightbox){
                     showVideoLightbox(this.id);
                 } else {
-                    $('#youmax-video').attr('src','http://www.youtube.com/embed/'+this.id);
+                    $('#youmax-video').attr('src','https://www.youtube.com/embed/'+this.id);
                     $('#youmax-video').show();
                     $('html,body').animate({scrollTop: $("#youmax-header").offset().top},'slow');
                 }
