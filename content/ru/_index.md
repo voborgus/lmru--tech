@@ -36,8 +36,7 @@ title = "Leroy Merlin Tech"
 
 {{< blocks/section color="white" >}}
 <div class="col">
-<h3 class="text-center">Как говорится, work in progress</h3>
-<div class="text-center">Над этим сайтом мы усиленно работаем. Помоги нам, отправь <a href="https://github.com/adeo/lmru--tech/pulls">Пулл Реквест</a>.</div>
+<div id="youmax"></div>
 </div>
 {{< /blocks/section >}}
 
