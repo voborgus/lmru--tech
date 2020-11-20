@@ -212,7 +212,7 @@
     
     
     
-            $('#youmax-header').append('<a href="' + youTubeChannelURL + '"><img id="youmax-header-logo" src="'+channelPic+'"/>'+channelName+'</a>');
+            $('#youmax-header').append('<a href="' + youTubeChannelURL + '" target="_blank"><img id="youmax-header-logo" src="'+channelPic+'"/>'+channelName+'</a>');
     
             $('#youmax-header').append('&nbsp;&nbsp;&nbsp;&nbsp;<div class="youmax-subscribe"><div class="g-ytsubscribe" data-channelid="'+channelId+'" data-layout="default" data-count="default"></div></div>');
     
