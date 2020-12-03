@@ -214,7 +214,7 @@
     
             $('#youmax-header').append('<a href="' + youTubeChannelURL + '" target="_blank"><img id="youmax-header-logo" src="'+channelPic+'"/>'+channelName+'</a>');
     
-            $('#youmax-header').append('&nbsp;&nbsp;&nbsp;&nbsp;<div class="youmax-subscribe"><div class="g-ytsubscribe" data-channelid="'+channelId+'" data-layout="default" data-count="default"></div></div>');
+            $('#youmax-header').append('<div class="youmax-subscribe"><div class="g-ytsubscribe" data-channelid="'+channelId+'" data-layout="default" data-count="default"></div></div>');
     
             //$('#youmax-stat-holder').append('<div class="youmax-stat">'+channelSubscribers+'<br/> subscribers </div><div class="youmax-stat">'+channelViews+'<br/>video views</div>');
     

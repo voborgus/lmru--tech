@@ -258,3 +258,13 @@ iframe#youmax-video {
 .promoting-card {
     border: none;
 }
+
+@media (max-width: 576px) {
+    .habrText {
+        display: none;
+    }    
+
+    .youmax-subscribe {
+        margin-bottom: 0;
+    }
+}
