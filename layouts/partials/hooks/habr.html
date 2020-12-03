@@ -5,10 +5,10 @@
         // Note: some RSS feeds can't be loaded in the browser due to CORS security.
         // To get around this, you can use a proxy.
         let parser = new RSSParser();
-        parser.parseURL('https://cors-anywhere.herokuapp.com/https://habr.com/ru/rss/company/leroy_merlin/blog/?fl=ru', function(err, feed) {
+        parser.parseURL('https://cors-anywhere.herokuapp.com/https://habr.com/ru/rss/company/leroy_merlin/blog/?fl=ru&mobile=no', function(err, feed) {
             if (err) throw err;
             var i;
-            for (i = 0; i < 6; i++) {
+            for (i = 0; i < 5; i++) {
                 var item = feed.items[i];
                 var itemDate = new Date(item.pubDate).toLocaleString('ru', {
                     year: 'numeric',
