@@ -18,8 +18,8 @@
 {{ end }}
 
 {{ if in .Permalink "stack/" }}
-<script type="text/javascript" src="https://cdn.datatables.net/v/bs4/dt-1.10.21/fh-3.1.7/rg-1.1.2/datatables.min.js"></script>
-<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs4/dt-1.10.21/fh-3.1.7/rg-1.1.2/datatables.min.css"/>
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs4/dt-1.10.22/fh-3.1.7/rg-1.1.2/datatables.min.css"/>
+<script type="text/javascript" src="https://cdn.datatables.net/v/bs4/dt-1.10.22/fh-3.1.7/rg-1.1.2/datatables.min.js"></script>
 
 <script>
     $(document).ready( function () {
@@ -27,6 +27,10 @@
         ajax: {
           url: '/stack.json',
           dataSrc: ''
+        },
+        fixedHeader: {
+            header: true,
+            headerOffset: $('#fixed').height() + 10
         },
         columns: [
           { data: 'Area' },
