@@ -55,7 +55,7 @@ id = "GTM-TWVZ2P9"
 [languages.en]
 title = "Leroy Merlin Tech"
 description = "Company's engineering portal."
-images = ["https://tech.leroymerlin.ru/images/leroy-merlin-tech.jpg"]
+images = ["https://tech.leroymerlin.ru/images/leroy-merlin-tech.en.jpg"]
 languageName ="English"
 weight = 2
 [languages.ru]
