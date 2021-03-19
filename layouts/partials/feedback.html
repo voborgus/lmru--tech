@@ -46,11 +46,7 @@
     noButton.disabled = true;
   };
   const sendFeedback = (value) => {
-    dataLayer.push({
-    'event': 'LeroyMerlin_new',
-    'eventAction': 'click',
-    'eventCategory': 'Interactions',
-    'eventLabel': 'emotions',
+    gtag('event', 'feedback', {'eventLabel': 'emotions',
     'eventLocation': document.location.pathname, 
     'eventContent': value, 
     'eventContext': 'Полезность'

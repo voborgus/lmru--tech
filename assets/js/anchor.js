@@ -67,11 +67,7 @@ limitations under the License.
                         $('#emotions').toast('show');
                         $('#' + heading.id + ' b').hide();
                         setCookie(heading.id, "Yes", 365);
-                        dataLayer.push({
-                            'event': 'LeroyMerlin_new',
-                            'eventAction': 'click',
-                            'eventCategory': 'Interactions',
-                            'eventLabel': 'emotions',
+                        gtag('event', 'feedback', {'eventLabel': 'emotions',
                             'eventLocation': document.location.pathname, 
                             'eventContent': 'Yes', 
                             'eventContext': heading.id
@@ -82,11 +78,7 @@ limitations under the License.
                         $('#emotions').toast('show');
                         $('#' + heading.id + ' b').hide();
                         setCookie(heading.id, "No", 365);
-                        dataLayer.push({
-                            'event': 'LeroyMerlin_new',
-                            'eventAction': 'click',
-                            'eventCategory': 'Interactions',
-                            'eventLabel': 'emotions',
+                        gtag('event', 'feedback', {'eventLabel': 'emotions',
                             'eventLocation': document.location.pathname, 
                             'eventContent': 'No', 
                             'eventContext': heading.id

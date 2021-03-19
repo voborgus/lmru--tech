@@ -1,3 +1,6 @@
+{{- $pc := .Site.Config.Privacy.GoogleAnalytics -}}
+{{- if not $pc.Disable -}}
+{{ with .Site.GoogleAnalytics }}
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-EJPYBKPS1Q"></script>
 <script>
@@ -7,3 +10,4 @@
 
   gtag('config', 'G-EJPYBKPS1Q');
 </script>
+{{ end }}{{- end -}}
