@@ -1,8 +1,8 @@
 
 
 ---
-title: "Laboratory"
-linkTitle: "Laboratory"
+title: "Knowledge"
+linkTitle: "Knowledge"
 weight: 60
 type: docs
 menu:

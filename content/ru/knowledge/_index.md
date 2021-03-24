@@ -1,8 +1,8 @@
 
 
 ---
-title: "Лаборатория"
-linkTitle: "Лаборатория"
+title: "Знания"
+linkTitle: "Знания"
 weight: 60
 type: docs
 menu:
