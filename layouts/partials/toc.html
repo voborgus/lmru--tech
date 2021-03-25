@@ -1,0 +1,10 @@
+{{ if not .Params.no_edit_links }}
+{{ partial "page-meta-links.html" . }}
+{{ end }}
+{{ if not .Params.notoc }}
+{{ with .TableOfContents }}
+{{ if ge (len .) 200 }}
+{{ . }}
+{{ end }}
+{{ end }}
+{{ end }}
