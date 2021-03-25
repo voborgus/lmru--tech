@@ -1,5 +1,5 @@
 ---
-title: "Как приготовить код к open source"
+title: "Готовим код к open source"
 description: "Короткая инструкция по причёсыванию кода."
 simple_list: true
 type: docs

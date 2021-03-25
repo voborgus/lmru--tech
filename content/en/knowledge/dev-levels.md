@@ -1,5 +1,5 @@
 ---
-title: "Developer Profiles in Leroy Merlin Russia"
+title: "Developer Profiles"
 description: "The page is under translation."
 weight: 60
 type: docs

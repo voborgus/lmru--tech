@@ -1,7 +1,7 @@
 
 
 ---
-title: "Уровни разработчиков Леруа Мерлен"
+title: "Уровни разработчиков"
 weight: 60
 type: docs
 no_list: true
