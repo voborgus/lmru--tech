@@ -18,8 +18,6 @@ We make possible home improvement for every client, support and develop partners
 {{< blocks/it color="primary" height="max" icon-right="laptop-code" >}}
 Being an IT, we want to build Retailer — technology company-platform.
 
-Our mission is bring autonomy to product teams, support it with tools and governance to increase productivity and ensure the required level of quality.
-
 <h5>500+ IT connected people divided into ≈100 product teams and 20 domains.</h5>
 
 {{< /blocks/it >}}

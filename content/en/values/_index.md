@@ -12,8 +12,6 @@ no_list: true
 
 We are building technology company-platform.
 
-Our mission is to bring autonomy to product teams, support it with tools and governance to increase productivity and ensure the required level of quality.
-
 {{% pageinfo color="secondary" %}}
 Engineering culture is the behavior of people when no one is watching.
 {{% /pageinfo %}}
