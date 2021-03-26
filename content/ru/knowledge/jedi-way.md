@@ -1,25 +1,18 @@
 ---
 title: "Путь кандидата"
-description: "Как появляются новые люди в компании"
+description: "Как появляются новые люди в компании."
 weight: 70
-type: docs
+type: stack
 no_list: true
 diagram: true
 ---
 
-{{<diagram>}}
-flowchart LR;
-  A[Первый телефонный звонок]-->B[Техническое интервью];
-  B-->C[Интервью с руководителем];
-  C-->D[Оффер];
-  click D href "https://youtu.be/LwaVWqn66Is" _blank;
-  classDef default fill:#f8f9fa,stroke:#F2F3F5,stroke-width:1px;
-  style D fill:#f8f9fa,stroke:#F2F3F5,stroke-width:1px;
-{{</diagram>}}
-
 {{< alert color="primary" title="Совет" >}}
 Перед собеседованием почитай о наших технологиях. <br />[Cтатьи](https://habr.com/ru/company/leroy_merlin/), [видео с конференций](https://www.youtube.com/channel/UCIqfZ4wqEoC6x6x-zyPCL8g), а ещё [тех. стек](/stack) и [ценности](/values).
 {{< /alert >}}
+
+<div class="row">
+  <div class="col-md-8">
 
 - **Первый телефонный звонок** <span class="text-muted pl-2">< 15 минут</span><br />
 Проводит рекрутер. На этом этапе поймём, что подходим друг другу. Поверхностно обсудим проекты и задачи, определим, что тебе интересно и договоримся о следующем шаге. <br />
@@ -32,6 +25,24 @@ flowchart LR;
 
 - **Совместное принятие решения и оффер** <span class="text-muted pl-2">Мгновенно</span><br />
 Обсудим впечатления и если у нас произошёл «контакт» — позовём в команду. В любом случае наш рекрутер не пропадёт, как это иногда бывает. Он вернётся с конструктивной обратной связью и предложит пообщаться снова в следующий раз. 
+
+  </div>
+  <div class="col-md-4 text-center">
+    {{<diagram>}}
+    flowchart TD;
+      A[Первый телефонный звонок]-->B[Техническое интервью];
+      B-->C[Интервью с руководителем];
+      C-->D[Оффер];
+      A-->E[Технический скрининг];
+      E-->B;
+      C-->F[Знакомство с лидером домена];
+      F-->D;
+      click D href "https://youtu.be/LwaVWqn66Is" _blank;
+      classDef default fill:#f8f9fa,stroke:#F2F3F5,stroke-width:1px;
+      style D fill:#f8f9fa,stroke:#F2F3F5,stroke-width:1px;
+    {{</diagram>}}
+  </div>
+</div>
 
 **Какие бывают варианты:**
 
