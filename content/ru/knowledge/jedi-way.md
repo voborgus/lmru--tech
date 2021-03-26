@@ -12,7 +12,7 @@ graph LR;
   A[Первый телефонный звонок]-->B[Техническое интервью];
   B-->C[Интервью с руководителем];
   C-->D[Оффер];
-  click D href "https://youtu.be/LwaVWqn66Is" "Произошёл Дзынь" _blank;
+  click D href "https://youtu.be/LwaVWqn66Is" _blank;
   classDef default fill:#f8f9fa,stroke:#F2F3F5,stroke-width:1px;
   style D fill:#f8f9fa,stroke:#F2F3F5,stroke-width:1px;
 {{</diagram>}}
