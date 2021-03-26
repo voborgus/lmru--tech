@@ -4,7 +4,18 @@ description: "Как появляются новые люди в компани�
 weight: 70
 type: docs
 no_list: true
+diagram: true
 ---
+
+{{<diagram>}}
+graph LR;
+  A[Первый телефонный звонок]-->B[Техническое интервью];
+  B-->C[Интервью с руководителем];
+  C-->D[Оффер];
+  click D href "https://youtu.be/LwaVWqn66Is" "Произошёл Дзынь" _blank;
+  classDef default fill:#f8f9fa,stroke:#F2F3F5,stroke-width:1px;
+  style D fill:#f8f9fa,stroke:#F2F3F5,stroke-width:1px;
+{{</diagram>}}
 
 {{< alert color="primary" title="Совет" >}}
 Перед собеседованием почитай о наших технологиях. <br />[Cтатьи](https://habr.com/ru/company/leroy_merlin/), [видео с конференций](https://www.youtube.com/channel/UCIqfZ4wqEoC6x6x-zyPCL8g), а ещё [тех. стек](/stack) и [ценности](/values).

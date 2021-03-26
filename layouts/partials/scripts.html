@@ -70,5 +70,9 @@
 	maxResults: 8,
 });
 </script>
+{{ if (.Params.diagram) }}
+<!-- MermaidJS support -->
+<script async src="https://unpkg.com/mermaid@8.9.2/dist/mermaid.min.js"></script>
+{{ end }}
 {{ partial "hooks/habr" . }}
 {{ partial "hooks/body-end.html" . }}
