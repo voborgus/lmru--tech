@@ -44,59 +44,6 @@ limitations under the License.
                 heading.addEventListener('mouseleave', function () {
                     a.style.visibility = 'hidden';
                 });
-
-                if (location.href.match(/\/values\//) && heading.tagName == "H3" && !getCookie(heading.id)) {
-                    var b = document.createElement('b');
-                    var c = document.createElement('b');
-                    b.style.visibility = 'hidden';
-                    c.style.visibility = 'hidden';
-                    b.style.cursor = 'pointer';
-                    c.style.cursor = 'pointer';
-                    b.setAttribute('aria-hidden', 'true');
-                    c.setAttribute('aria-hidden', 'true');
-                    $(b).tooltip({'title': 'Полезная ценность, поддерживаю', 'placement': 'bottom'});
-                    $(c).tooltip({'title': 'Бесполезная ценность, давайте выпилим', 'placement': 'bottom'});
-                    b.classList.add("ml-2")
-                    c.classList.add("ml-1")
-                    b.classList.add("reactions")
-                    c.classList.add("reactions")
-                    b.innerHTML = '🔥';
-                    c.innerHTML = '💩';
-                    
-                    b.addEventListener('click', function() {
-                        $('#emotions').toast('show');
-                        $('#' + heading.id + ' b').hide();
-                        setCookie(heading.id, "Yes", 365);
-                        gtag('event', 'feedback', {'eventLabel': 'emotions',
-                            'eventLocation': document.location.pathname, 
-                            'eventContent': 'Yes', 
-                            'eventContext': heading.id
-                            });
-                    })
-
-                    c.addEventListener('click', function() {
-                        $('#emotions').toast('show');
-                        $('#' + heading.id + ' b').hide();
-                        setCookie(heading.id, "No", 365);
-                        gtag('event', 'feedback', {'eventLabel': 'emotions',
-                            'eventLocation': document.location.pathname, 
-                            'eventContent': 'No', 
-                            'eventContext': heading.id
-                            });
-                    })
-
-                    heading.insertAdjacentElement('beforeend', b);
-                    heading.insertAdjacentElement('beforeend', c);
-    
-                    heading.addEventListener('mouseenter', function () {
-                        b.style.visibility = 'initial';
-                        c.style.visibility = 'initial';
-                    });
-                    heading.addEventListener('mouseleave', function () {
-                        b.style.visibility = 'hidden';
-                        c.style.visibility = 'hidden';
-                    });
-                }
             }
         });
     });
