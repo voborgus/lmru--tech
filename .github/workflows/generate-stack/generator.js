@@ -22,11 +22,6 @@ result.tools = []
 result.infrastructure = []
 
 technologies.forEach(function(technology) {
-  if (technology.usage == "Data Product backend"
-      || technology.usage == "Data Product frontend") {
-
-      }
-
   if ((technology.category == "Data"
         && (technology.usage != "Data Product backend" && technology.usage != "Data Product frontend")
           && technology.usage != "Data tool frontend" && technology.usage != "Data tool backend") 
