@@ -1,4 +1,23 @@
+name: Consolidated
+tangramId: 2a21ccc8-e0fe-413c-b14a-819d8cfdb821
+domainId: a14b212f-74d1-4d93-b40f-0eef3888e866
 languages:
+  - name: Python 3
+    stage: adopt
+    category: Machine Learning
+    usage: Analysis
+  - name: Go
+    stage: adopt
+    category: Data
+    usage: Data tool backend
+  - name: Java
+    stage: adopt
+    category: Data
+    usage: Data tool backend
+  - name: Python
+    stage: adopt
+    category: Data
+    usage: Data Product backend
   - name: Go
     stage: trial
     category: Business applications backend
@@ -11,7 +30,7 @@ languages:
     stage: adopt
     category: Business applications backend
     usage: CRUD
-  - name: Typescript
+  - name: TypeScript
     stage: adopt
     category: Business applications backend
     usage: CRUD
@@ -27,20 +46,12 @@ languages:
     stage: hold
     category: Business applications backend
     usage: CRUD
-  - name: Node.JS
-    stage: trial
-    category: Business applications backend
-    usage: BFF
   - name: Java
     stage: trial
     category: Business applications backend
     usage: BFF
   - name: Kotlin
     stage: trial
-    category: Business applications backend
-    usage: BFF
-  - name: Platformeco
-    stage: adopt
     category: Business applications backend
     usage: BFF
   - name: Python
@@ -59,6 +70,14 @@ languages:
     stage: hold
     category: Frontends
     usage: Web
+  - name: Swift
+    stage: adopt
+    category: Frontends
+    usage: Mobile
+  - name: Kotlin
+    stage: adopt
+    category: Frontends
+    usage: Mobile
   - name: Java
     stage: hold
     category: Frontends
@@ -84,11 +103,47 @@ languages:
     category: QA
     usage: Performance
 frameworks:
+  - name: Pytorch
+    stage: assess
+    category: Machine Learning
+    usage: Libraries
+  - name: Kubeflow
+    stage: assess
+    category: Machine Learning
+    usage: MLOps
+  - name: MLFlow
+    stage: assess
+    category: Machine Learning
+    usage: MLOps
+  - name: Django
+    stage: adopt
+    category: Data
+    usage: Data tool backend
+  - name: Ant Design
+    stage: trial
+    category: Data
+    usage: Data tool frontend
+  - name: Next.js
+    stage: adopt
+    category: Data
+    usage: Data tool frontend
+  - name: Flask
+    stage: adopt
+    category: Data
+    usage: Data Product backend
+  - name: AsyncIO
+    stage: adopt
+    category: Data
+    usage: Data Product backend
+  - name: React
+    stage: adopt
+    category: Data
+    usage: Data Product frontend
   - name: Django
     stage: trial
     category: Business applications backend
     usage: CRUD
-  - name: Fastapi
+  - name: FastAPI
     stage: trial
     category: Business applications backend
     usage: CRUD
@@ -100,7 +155,7 @@ frameworks:
     stage: adopt
     category: Business applications backend
     usage: CRUD
-  - name: Nest JS
+  - name: Nest.js
     stage: adopt
     category: Business applications backend
     usage: CRUD
@@ -108,6 +163,10 @@ frameworks:
     stage: adopt
     category: Business applications backend
     usage: CRUD
+  - name: Node.JS
+    stage: trial
+    category: Business applications backend
+    usage: BFF
   - name: 'TypeScript: NodeJS'
     stage: adopt
     category: Business applications backend
@@ -120,11 +179,39 @@ frameworks:
     stage: adopt
     category: Business applications backend
     usage: Integration flows
-  - name: Vue
+  - name: Vue.js
     stage: trial
     category: Frontends
     usage: Web
+  - name: Angular
+    stage: trial
+    category: Frontends
+    usage: Web
+  - name: Mobx
+    stage: trial
+    category: Frontends
+    usage: Web
+  - name: Redux
+    stage: trial
+    category: Frontends
+    usage: Web
+  - name: React
+    stage: adopt
+    category: Frontends
+    usage: Web
+  - name: HTTP2
+    stage: adopt
+    category: Frontends
+    usage: Web
+  - name: AEM
+    stage: hold
+    category: Frontends
+    usage: Web
   - name: BEM
+    stage: hold
+    category: Frontends
+    usage: Web
+  - name: Bitrix
     stage: hold
     category: Frontends
     usage: Web
@@ -152,15 +239,11 @@ frameworks:
     stage: trial
     category: Frontends
     usage: Mobile
-  - name: Swift
-    stage: adopt
-    category: Frontends
-    usage: Mobile
-  - name: Kotlin
-    stage: adopt
-    category: Frontends
-    usage: Mobile
   - name: RxJava
+    stage: hold
+    category: Frontends
+    usage: Mobile
+  - name: gRPC
     stage: hold
     category: Frontends
     usage: Mobile
@@ -214,106 +297,6 @@ frameworks:
     usage: Functional
 techniques: []
 dataManagement:
-  - name: Pytorch
-    stage: assess
-    category: Machine Learning
-    usage: Libraries
-  - name: Catboost
-    stage: adopt
-    category: Machine Learning
-    usage: Libraries
-  - name: Plotly
-    stage: adopt
-    category: Machine Learning
-    usage: Libraries
-  - name: Scikit-learn
-    stage: adopt
-    category: Machine Learning
-    usage: Libraries
-  - name: Seaborn
-    stage: adopt
-    category: Machine Learning
-    usage: Libraries
-  - name: Pandas
-    stage: adopt
-    category: Machine Learning
-    usage: Libraries
-  - name: TensorFlow (Keras)
-    stage: adopt
-    category: Machine Learning
-    usage: Libraries
-  - name: Matplotlib
-    stage: adopt
-    category: Machine Learning
-    usage: Libraries
-  - name: LightGBM
-    stage: adopt
-    category: Machine Learning
-    usage: Libraries
-  - name: OpenCV
-    stage: adopt
-    category: Machine Learning
-    usage: Libraries
-  - name: DVC
-    stage: assess
-    category: Machine Learning
-    usage: MLOps
-  - name: Kubeflow
-    stage: assess
-    category: Machine Learning
-    usage: MLOps
-  - name: MLFlow
-    stage: assess
-    category: Machine Learning
-    usage: MLOps
-  - name: Jupyter Notebook
-    stage: adopt
-    category: Machine Learning
-    usage: Tools
-  - name: JupyterHub
-    stage: hold
-    category: Machine Learning
-    usage: Tools
-  - name: Python 3
-    stage: adopt
-    category: Machine Learning
-    usage: Analysis
-  - name: Go
-    stage: adopt
-    category: Data
-    usage: Data tool backend
-  - name: Java
-    stage: adopt
-    category: Data
-    usage: Data tool backend
-  - name: Django
-    stage: adopt
-    category: Data
-    usage: Data tool backend
-  - name: Ant Design
-    stage: trial
-    category: Data
-    usage: Data tool frontend
-  - name: Next.js
-    stage: adopt
-    category: Data
-    usage: Data tool frontend
-  - name: Flask
-    stage: adopt
-    category: Data
-    usage: Data Product backend
-  - name: AsyncIO
-    stage: adopt
-    category: Data
-    usage: Data Product backend
-  - name: Python
-    stage: adopt
-    category: Data
-    usage: Data Product backend
-  - name: React
-    stage: adopt
-    category: Data
-    usage: Data Product frontend
   - name: Superset
     stage: trial
     category: Data
@@ -354,7 +337,7 @@ dataManagement:
     stage: hold
     category: Data
     usage: DWH
-  - name: Clickhouse
+  - name: ClickHouse
     stage: assess
     category: Data
     usage: DWH operational
@@ -422,7 +405,7 @@ dataManagement:
     stage: adopt
     category: Business applications backend
     usage: Data storage
-  - name: PostgeSQL
+  - name: PostgreSQL
     stage: adopt
     category: Business applications backend
     usage: Data storage
@@ -430,7 +413,7 @@ dataManagement:
     stage: adopt
     category: Business applications backend
     usage: Data storage
-  - name: Elasticsearch (opendistro)
+  - name: OpenSearch
     stage: adopt
     category: Business applications backend
     usage: Data storage
@@ -458,12 +441,144 @@ dataManagement:
     stage: adopt
     category: Business applications backend
     usage: In memory DB
+  - name: gRPC
+    stage: trial
+    category: API management
+    usage: Internal product integrations
+  - name: GraphQL
+    stage: trial
+    category: API management
+    usage: Internal product integrations
+  - name: WebSocket
+    stage: trial
+    category: API management
+    usage: Internal product integrations
+  - name: NATS
+    stage: trial
+    category: API management
+    usage: Internal product integrations
+  - name: NATS Streaming
+    stage: trial
+    category: API management
+    usage: Internal product integrations
+  - name: Kafka Connect
+    stage: trial
+    category: API management
+    usage: Internal product integrations
+  - name: REST
+    stage: adopt
+    category: API management
+    usage: Internal product integrations
+  - name: RabbitMQ
+    stage: adopt
+    category: API management
+    usage: Internal product integrations
+  - name: Kafka
+    stage: adopt
+    category: API management
+    usage: Internal product integrations
+  - name: SOAP
+    stage: hold
+    category: API management
+    usage: Internal product integrations
+  - name: JMS
+    stage: hold
+    category: API management
+    usage: Internal product integrations
+  - name: ActiveMQ
+    stage: hold
+    category: API management
+    usage: Internal product integrations
+  - name: REST
+    stage: adopt
+    category: API management
+    usage: Product to Product integrations
+  - name: RabbitMQ
+    stage: adopt
+    category: API management
+    usage: Product to Product integrations
+  - name: Kafka
+    stage: adopt
+    category: API management
+    usage: Product to Product integrations
+  - name: FTP / SFTP
+    stage: hold
+    category: API management
+    usage: Product to Product integrations
+  - name: gRPC
+    stage: hold
+    category: API management
+    usage: Product to Product integrations
+  - name: GraphQL
+    stage: hold
+    category: API management
+    usage: Product to Product integrations
+  - name: ActiveMQ
+    stage: hold
+    category: API management
+    usage: Product to Product integrations
+  - name: JMS
+    stage: hold
+    category: API management
+    usage: Product to Product integrations
 tools:
+  - name: Catboost
+    stage: adopt
+    category: Machine Learning
+    usage: Libraries
+  - name: Plotly
+    stage: adopt
+    category: Machine Learning
+    usage: Libraries
+  - name: Scikit-learn
+    stage: adopt
+    category: Machine Learning
+    usage: Libraries
+  - name: Seaborn
+    stage: adopt
+    category: Machine Learning
+    usage: Libraries
+  - name: Pandas
+    stage: adopt
+    category: Machine Learning
+    usage: Libraries
+  - name: TensorFlow (Keras)
+    stage: adopt
+    category: Machine Learning
+    usage: Libraries
+  - name: Matplotlib
+    stage: adopt
+    category: Machine Learning
+    usage: Libraries
+  - name: LightGBM
+    stage: adopt
+    category: Machine Learning
+    usage: Libraries
+  - name: OpenCV
+    stage: adopt
+    category: Machine Learning
+    usage: Libraries
+  - name: DVC
+    stage: assess
+    category: Machine Learning
+    usage: MLOps
+  - name: Jupyter Notebook
+    stage: adopt
+    category: Machine Learning
+    usage: Tools
+  - name: JupyterHub
+    stage: hold
+    category: Machine Learning
+    usage: Tools
   - name: Platformeco
     stage: trial
     category: Business applications backend
     usage: CRUD
-  - name: Java state machine
+  - name: Platformeco
+    stage: adopt
+    category: Business applications backend
+    usage: BFF
+  - name: Java State Machine
     stage: trial
     category: Business applications backend
     usage: Complex BL, Process orchestration
@@ -487,10 +602,6 @@ tools:
     stage: trial
     category: Frontends
     usage: Web
-  - name: Angular
-    stage: trial
-    category: Frontends
-    usage: Web
   - name: OKAPI
     stage: trial
     category: Frontends
@@ -499,32 +610,8 @@ tools:
     stage: trial
     category: Frontends
     usage: Web
-  - name: Mobx
-    stage: trial
-    category: Frontends
-    usage: Web
-  - name: Redux
-    stage: trial
-    category: Frontends
-    usage: Web
-  - name: React
-    stage: adopt
-    category: Frontends
-    usage: Web
-  - name: HTTP2
-    stage: adopt
-    category: Frontends
-    usage: Web
   - name: CSS Modules
     stage: adopt
-    category: Frontends
-    usage: Web
-  - name: AEM
-    stage: hold
-    category: Frontends
-    usage: Web
-  - name: Bitrix
-    stage: hold
     category: Frontends
     usage: Web
   - name: Kaspresso
@@ -557,10 +644,6 @@ tools:
     usage: Mobile
   - name: Retrofit + Okhttp
     stage: adopt
-    category: Frontends
-    usage: Mobile
-  - name: GRPC
-    stage: hold
     category: Frontends
     usage: Mobile
   - name: Stubber
@@ -603,7 +686,7 @@ tools:
     stage: hold
     category: QA
     usage: Performance
-  - name: Jmeter
+  - name: JMeter
     stage: hold
     category: QA
     usage: Performance
@@ -635,86 +718,6 @@ tools:
     stage: hold
     category: QA
     usage: Infrastructure & Documentation
-  - name: GRPC
-    stage: trial
-    category: API management
-    usage: Internal product integrations
-  - name: GraphQL
-    stage: trial
-    category: API management
-    usage: Internal product integrations
-  - name: WebSocket
-    stage: trial
-    category: API management
-    usage: Internal product integrations
-  - name: NATS
-    stage: trial
-    category: API management
-    usage: Internal product integrations
-  - name: NATS Streaming
-    stage: trial
-    category: API management
-    usage: Internal product integrations
-  - name: Kafka Streams / connect
-    stage: trial
-    category: API management
-    usage: Internal product integrations
-  - name: REST
-    stage: adopt
-    category: API management
-    usage: Internal product integrations
-  - name: AMPQ (RabbitMQ)
-    stage: adopt
-    category: API management
-    usage: Internal product integrations
-  - name: Kafka
-    stage: adopt
-    category: API management
-    usage: Internal product integrations
-  - name: SOAP
-    stage: hold
-    category: API management
-    usage: Internal product integrations
-  - name: JMS
-    stage: hold
-    category: API management
-    usage: Internal product integrations
-  - name: ActiveMQ
-    stage: hold
-    category: API management
-    usage: Internal product integrations
-  - name: REST
-    stage: adopt
-    category: API management
-    usage: Product to Product integrations
-  - name: AMPQ (RabbitMQ)
-    stage: adopt
-    category: API management
-    usage: Product to Product integrations
-  - name: Kafka
-    stage: adopt
-    category: API management
-    usage: Product to Product integrations
-  - name: SFTP / FTPS
-    stage: hold
-    category: API management
-    usage: Product to Product integrations
-  - name: GRPC
-    stage: hold
-    category: API management
-    usage: Product to Product integrations
-  - name: GraphQL
-    stage: hold
-    category: API management
-    usage: Product to Product integrations
-  - name: ActiveMQ
-    stage: hold
-    category: API management
-    usage: Product to Product integrations
-  - name: JMS
-    stage: hold
-    category: API management
-    usage: Product to Product integrations
   - name: Istio
     stage: assess
     category: API management
@@ -727,11 +730,11 @@ tools:
     stage: hold
     category: API management
     usage: Gateways & mediation
-  - name: Web methods ESB
+  - name: WebMethods ESB
     stage: hold
     category: API management
     usage: Gateways & mediation
-  - name: Transfile perl
+  - name: Transfile
     stage: hold
     category: API management
     usage: Gateways & mediation
@@ -759,7 +762,7 @@ tools:
     stage: hold
     category: Observability
     usage: Monitoring (application)
-  - name: ELK
+  - name: Elastic Stack
     stage: hold
     category: Observability
     usage: Monitoring (application)
@@ -767,7 +770,7 @@ tools:
     stage: hold
     category: Observability
     usage: Monitoring (application)
-  - name: Opsgenie
+  - name: OpsGenie
     stage: adopt
     category: Observability
     usage: Alerting
@@ -775,7 +778,7 @@ tools:
     stage: adopt
     category: Observability
     usage: Alerting
-  - name: ELK
+  - name: Elastic Stack
     stage: hold
     category: Observability
     usage: Alerting
@@ -831,7 +834,7 @@ tools:
     stage: adopt
     category: CICD
     usage: CI tool
-  - name: Gitlab CI/CD
+  - name: Gitlab CI
     stage: hold
     category: CICD
     usage: CI tool
@@ -920,11 +923,11 @@ infrastructure:
     stage: assess
     category: Infrastructure
     usage: Logging
-  - name: Opendistro (ELK/EFK)
+  - name: OpenSearch
     stage: adopt
     category: Infrastructure
     usage: Logging
-  - name: Mail.ru
+  - name: VK Cloud Solutions
     stage: assess
     category: Infrastructure
     usage: Cloud
@@ -940,11 +943,11 @@ infrastructure:
     stage: adopt
     category: Infrastructure
     usage: Cloud
-  - name: Huawei cloud
+  - name: Huawei Cloud
     stage: hold
     category: Infrastructure
     usage: Cloud
-  - name: HA Proxy
+  - name: HAProxy
     stage: assess
     category: Infrastructure
     usage: Load Balancer
