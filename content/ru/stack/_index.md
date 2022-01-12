@@ -35,7 +35,7 @@ no_list: true
 </div>
 </div>
 
-**Легенда:** <code class='lang'>Языки & Фреймворки</code> <code class='tool'>Инструменты</code> <code class='platform'>Платформы</code>
+**Легенда:** <code class='lang'>Языки</code> <code class='tool'>Инструменты</code> <code class='framework'>Фреймворки</code>
 
 {{< stack >}}
 
