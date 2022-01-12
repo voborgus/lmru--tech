@@ -9,4 +9,4 @@ jobs:
         with:
           node-version: '14'
       - run: npm install -g js-yaml
-      - run: node .github/workflows/generator.js
+      - run: node .github/workflows/generate-stack/generator.js
