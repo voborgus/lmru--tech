@@ -1,0 +1,12 @@
+name: generate-stack
+on: [push]
+jobs:
+  generate-stack:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+      - run: npm install -g js-yaml
+      - run: node .github/workflows/generate-stack.js
