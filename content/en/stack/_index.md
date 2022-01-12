@@ -30,7 +30,7 @@ has an explanation of why.
 
 All categories except `research` can work in production.
 
-**Legend:** <code class='lang'>Languages & Frameworks</code> <code class='tool'>Tools</code> <code class='platform'>Platforms</code>
+**Legend:** <code class='lang'>Languages</code> <code class='tool'>Tools</code> <code class='framework'>Frameworks</code>
 </div>
 </div>
 
